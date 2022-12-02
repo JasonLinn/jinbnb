@@ -99,6 +99,9 @@ body {
     .carousel-item {
         height: 300px;
     }
+    .env {
+        max-height: 120px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up)
