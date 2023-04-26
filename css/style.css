@@ -27,12 +27,12 @@ p {
     align-items: center;
 }
 
-.carousel-item {
+.banner {
     position: relative;
     height: 600px;
 }
 
-.carousel-item::after {
+.banner-item::after {
     content: "";
     display: block;
     width: 70%;
