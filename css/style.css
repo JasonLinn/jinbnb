@@ -101,6 +101,15 @@ p {
     font-size: 14px;
 }
 
+.notice {
+    background-color: rgb(255, 241, 232);
+    padding: 10px;
+}
+
+.notice-line {
+    font-size: 14px;
+}
+
 .bold {
     font-weight: bold;
 }
