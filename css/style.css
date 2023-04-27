@@ -29,6 +29,9 @@ p {
 
 .banner {
     position: relative;
+}
+
+.banner-item{
     height: 600px;
 }
 
