@@ -32,6 +32,10 @@ p {
     height: 600px;
 }
 
+.banner-item:first-child img {
+    object-fit: contain;
+}
+
 .banner-item::after {
     content: "";
     display: block;
