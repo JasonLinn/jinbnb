@@ -73,6 +73,14 @@ p {
     font-weight: bold;
 }
 
+.title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #c4c4c4;
+}
+
 .env {
     max-height: 180px;
     margin-bottom: 30px;
