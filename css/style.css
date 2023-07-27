@@ -98,7 +98,7 @@ p {
 }
 
 .infoText {
-    background-color: rgb(255, 241, 232);
+    background-color: #f1f1f1;
     padding: 10px;
 }
 
@@ -111,7 +111,7 @@ p {
 }
 
 .notice {
-    background-color: rgb(255, 241, 232);
+    background-color: #f1f1f1;
     padding: 10px;
 }
 
