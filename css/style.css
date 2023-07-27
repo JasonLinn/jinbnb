@@ -21,6 +21,10 @@ p {
     padding: 10px 0;
 } */
 
+.carousel {
+    margin-top: 150px;
+}
+
 .carousel-inner {
     display: flex;
     max-height: 600px;
