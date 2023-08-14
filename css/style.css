@@ -80,10 +80,19 @@ table {
 
 .news {
     padding-bottom: 20px;
+    font-size: 14px;
 }
 
 .news a {
     text-decoration: none;
+}
+
+.news span {
+    font-size: 12px;
+}
+
+.grey {
+    color: #ccc;
 }
 
 .title {
@@ -129,7 +138,7 @@ table {
     text-align: center;
     font-size: 14px;
 }
-.grap-table tr:first-child {
+.grap-tr {
     font-weight: bold;
     background-color: #f1f1f1;
 }
@@ -143,6 +152,17 @@ table {
 .grap-room img {
     margin-right: 5px;
     margin-bottom: 5px;
+}
+
+.roomWrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.roomInfo {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 3px;
 }
 
 .grap-info {
