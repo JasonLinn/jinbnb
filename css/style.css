@@ -213,6 +213,22 @@ table {
 .red {
     color: rgb(242, 56, 56);
 }
+
+.accordion-button:focus {
+    /* background-color: #B2CE7E;
+    color: #ccc; */
+    box-shadow: none;
+}
+
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-img {
+    display: inline-block;
+    margin-bottom: 5px;
+}
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
