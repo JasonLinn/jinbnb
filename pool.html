@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泳池氯氣計算</title>
+</head>
+<body>
+    <div>
+        26噸 * 
+        <label for="height">水高(cm)</label>
+        <input type="text" id="height" name="height" required minlength="4" maxlength="8" size="10" />
+        * 
+        <label for="ppm">ppm</label>
+        <input type="text" id="ppm" name="ppm" required minlength="4" maxlength="8" size="10" value="1" />
+         = <span id="drug"></span>g
+         <button id="cal" onclick="cal()" style="width:100px;height:30px;">計算</button>
+    </div>
+
+</body>
+<script>
+
+    function cal () {
+        let height = Number(document.getElementById("height").value);
+        if (!height) {
+            document.getElementById("height").focus();
+            document.getElementById("height").style.backgroundColor = '#ccc';
+            return;
+        }
+        let ppm = Number(document.getElementById("ppm").value);
+        let don = 26 * (height/100);
+        let g = Math.round(don * ppm * 1.78 * 10)/10; // 1/0.56 = 1.78 (氯含量56%)
+        document.getElementById("drug").innerText = g;
+        console.log(height, 'hhhh');
+        console.log(g, '22');
+
+    }
+</script>
+</html>
