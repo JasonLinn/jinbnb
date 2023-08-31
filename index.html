@@ -289,27 +289,59 @@
       </sction>
       <section class="info container">
         <h3 class="title">入住須知</h3>
-        <div class="notice">
-          <p class="notice-line">1. 進房時間15：00後，退房隔日11：00前。</p>
-          <p class="notice-line">2. 全館禁菸，如需吸菸請至本棟建築物外。</p>
-          <p class="notice-line">3. 不得攜帶寵物入內。</p>
-          <p class="notice-line">4. 晚上22：00後請降低音量。</p>
-          <p class="notice-line">5. 部分房型可加床，請事先告知，800/一床</p>
+        <div class="accordion" id="notice">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="notice-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#notice-one" aria-expanded="true" aria-controls="notice-one">
+                入住須知
+              </button>
+            </h2>
+            <div id="notice-one" class="accordion-collapse collapse show" aria-labelledby="notice-header" data-bs-parent="#notice">
+              <div class="accordion-body notice-body">
+                <div class="notice">
+                  <p>1. 進房時間15：00後，退房隔日11：00前。</p>
+                  <p>2. 全館禁菸，如需吸菸請至本棟建築物外。</p>
+                  <p>3. 不得攜帶寵物入內。</p>
+                  <p>4. 晚上22：00後請降低音量。</p>
+                  <p>5. 部分房型可加床，請事先告知，800/一床</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#notice-two" aria-expanded="false" aria-controls="notice-two">
+                取消訂房退款
+              </button>
+            </h2>
+            <div id="notice-two" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo" data-bs-parent="#service">
+              <div class="accordion-body notice-body">
+                <p>◎ 若因颱風或者其他重大災害，且民宿所在縣市政府宣布停止上班上課，訂金可以選擇保留或退還。</p>
+                <p>◎ 僅因住房旅客猜測當地天氣可能不佳要求退房，則視為個人因素，將依據交通部『民宿個別旅客直接訂房型化契約範本』規定辦理。</p>
+                <p class="notice-cancel-line">◎ 14日前告知退房要求，可退還已付訂金100%。</p>
+                <p>◎ 10~13日間告知退房要求，可退還已付訂金70%。</p>
+                <p>◎ 7~9日間告知退房要求，可退還已付訂金50%。</p>
+                <p>◎ 4~6日間告知退房要求，可退還已付訂金40%。</p>
+                <p>◎ 2~3日間告知退房要求，可退還已付訂金30%。</p>
+                <p>◎ 1日告知退房要求，可退還已付訂金20%。</p>
+                <p>◎ 當天告知退房要求，即不退還旅客已付全部訂金。</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="container">
         <h3 class="title">貼心服務</h3>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion" id="service">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service-one" aria-expanded="false" aria-controls="service-one">
                 自行車租車優惠
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+            <div id="service-one" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
               <div class="accordion-body">
                 <p>合作店家吉美、親親自行車租車優惠，悠遊冬山河畔，<strong>深度旅遊攻略</strong>：<a href="https://tripmoment.com/Trip/975457239.html" target="_blank">宜蘭・冬山河自行車道</a></p>
-                <!-- <img src="img/carve.jpg" width="309" height="205" class="service-img" alt="衿日林-自行車隧道" loading="lazy" data-src="https://jinbnb.com/img/carve.jpg" data-toggle="lightbox" data-gallery="bike"> -->
                 <img src="img/river-bike-jin.jpg" width="309" height="309" class="service-img" alt="衿日林-自行車" loading="lazy" data-src="https://jinbnb.com/img/river-bike-jin.jpg" data-toggle="lightbox" data-gallery="bike">
               </div>
             </div>

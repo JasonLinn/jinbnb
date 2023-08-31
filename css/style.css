@@ -188,11 +188,17 @@ table {
     font-size: 14px;
 }
 
-.notice {
+.accordion-button:not(.collapsed) {
+    color: #000;
+    /* background-color: rgba(204, 204, 204, 0.388); */
 }
 
-.notice-line {
+.notice-body {
     font-size: 14px;
+}
+
+.notice-cancel-line {
+    margin-top: 10px;
 }
 
 .bold {
