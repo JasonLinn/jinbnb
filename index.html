@@ -102,10 +102,40 @@
       </div>
       <section class="container">
         <h3 class="title">最新消息</h3>
-        <div class="news">
-          <p>1. <span>8/1~12/31</span> 包棟熱銷中🔥</p>
+        <div class="news row">
+          <div class="col-6 col-sm-6 col-md-3" data-src="post/2023-12-9_redbean.html" onclick="openPage(this)">
+            <div class="news-img">
+              <img src="img/redbean.jpg" alt="衿日林紅豆湯圓">
+            </div>
+            <div class="news-content">
+              <p>👉 即日起至 113年1月31日</p>
+              <p>👉 包棟入住即獲贈一鍋 #暖心的紅豆湯圓 😍</p>
+              <p>👉 衿日林民宿 誠摯邀您包棟享受專屬空間，無論是家庭聚會或好友相聚，我們提供獨特體驗，讓您感受滿滿溫暖與溫馨。</p>
+              <p>👉 獨享:</p>
+              <div class="post-subcontent">
+                  <p>#庭院烤肉場地</p>
+                  <p>#卡拉OK</p>
+                  <p>#電動麻將</p>
+                  <p>#中式早餐</p>
+              </div>
+            </div>
+            <h1 class="news-title">包棟贈紅豆湯圓</h1>
+            <span class="news-day">2023/12/9</span>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3" data-src="post/2023-7-1_ciff.html" onclick="openPage(this)">
+            <div class="news-img">
+              <img src="img/2023-ciff.jpg" alt="衿日林-2023國際童玩節">
+            </div>
+            <div class="news-content">
+              <p>🔥 活動時間 112年7月1日~8月13日</p>
+              <p>今年童玩節以三大主要元素「國際」、「童玩」及「藝術節」出發，以「童玩原宇宙」為主題，相關市集以「創異童趣，藝起童樂」為題，期望大小朋友都能在此享受童（同）趣！</p>
+            </div>
+            <h1 class="news-title">2023童玩節開幕！</h1>
+            <span class="news-day">2023/7/1</span>
+          </div>
+          <!-- <p>1. <span>8/1~12/31</span> 包棟熱銷中🔥</p>
           <p class="grey">2. <span>7/1~8/13</span> 宜蘭童玩節熱鬧開幕🎉</p>
-          <p class="grey">3. <span>7/29~7/30</span> 利澤休息季(市集活動)</p>
+          <p class="grey">3. <span>7/29~7/30</span> 利澤休息季(市集活動)</p> -->
         </div>
       </section>
       <section class="container info">
@@ -432,6 +462,15 @@
       async
     ></script> -->
 </body>
+<script>
+function openPage(e) {
+  if (e && e.dataset) {
+    window.open(e.dataset.src);
+  }
+  
+  return;
+}
+</script>
 <script>
 window.onload=function(){
     //延遲載入影片

@@ -79,10 +79,29 @@ table {
 }
 
 .news {
+    display: flex;
     padding-bottom: 20px;
     font-size: 14px;
 }
-
+.news-title {
+    font-size: 16px;
+    margin: 0;
+}
+.news-content {
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.news-img {
+    height: 100px;
+    padding: 5px;
+    border: 2px solid #d2d2d2bd;
+}
+.news-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .news a {
     text-decoration: none;
 }
@@ -244,6 +263,9 @@ table {
 .post {
     margin-top: 100px;
 }
+.post-content {
+    margin-bottom: 20px;
+}
 .post-day {
     display: block;
     margin-top: -6px;
@@ -255,7 +277,7 @@ table {
 .post-subcontent {
     padding-left: 20px;
 }
-.post-img {
+.post-img img {
     display: block;
     margin-top: 20px;
     width: 500px;
@@ -283,7 +305,7 @@ table {
     #yt {
         height: 200px;
     }
-    .post-img {
+    .post-img img {
         width: 100%;
     }
 }
