@@ -94,6 +94,11 @@ table {
 .video {
     width: 100%;
     height: 500px;
+}
+
+#yt {
+    width: 100%;
+    height: 500px;
     margin-top: 10px;
 }
 
@@ -254,6 +259,9 @@ table {
         max-height: 120px;
     }
     .video {
+        height: 200px;
+    }
+    #yt {
         height: 200px;
     }
 }
