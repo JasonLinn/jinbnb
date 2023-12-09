@@ -241,6 +241,25 @@ table {
     display: inline-block;
     margin-bottom: 5px;
 }
+.post {
+    margin-top: 100px;
+}
+.post-day {
+    display: block;
+    margin-top: -6px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 12px;
+}
+.post-subcontent {
+    padding-left: 20px;
+}
+.post-img {
+    display: block;
+    margin-top: 20px;
+    width: 500px;
+}
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
@@ -263,6 +282,9 @@ table {
     }
     #yt {
         height: 200px;
+    }
+    .post-img {
+        width: 100%;
     }
 }
 
