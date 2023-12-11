@@ -468,9 +468,8 @@
 <script>
 function openPage(e) {
   if (e && e.dataset) {
-    window.open(e.dataset.src);
+    window.location.href = e.dataset.src;
   }
-  
   return;
 }
 </script>
