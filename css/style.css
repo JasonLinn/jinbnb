@@ -311,6 +311,9 @@ table {
     .post-img img {
         width: 100%;
     }
+    .roomInfoImg {
+        height: 60px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up)
