@@ -13,7 +13,7 @@ table {
 }
 
 .navbar {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .navbar-brand {
@@ -28,7 +28,7 @@ table {
 } */
 
 .carousel {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .carousel-inner {
@@ -308,7 +308,7 @@ table {
         height: 300px;
     }
     .carousel {
-        margin-top: 50px;
+        margin-top: 10px;
     }
     .carousel-item {
         height: 300px;
