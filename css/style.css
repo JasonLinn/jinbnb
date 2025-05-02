@@ -305,7 +305,7 @@ table {
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     .carousel-inner {
-        height: 300px;
+        max-height: 300px;
     }
     .carousel {
         margin-top: 10px;
@@ -314,19 +314,20 @@ table {
         height: 300px;
     }
     .env {
-        max-height: 120px;
+        margin-bottom: 10px;
     }
     .video {
-        height: 200px;
+        width: 100%;
+        height: 300px;
     }
     #yt {
-        height: 200px;
+        height: 300px;
     }
     .post-img img {
-        width: 100%;
+        height: 18rem;
     }
     .roomInfoImg {
-        height: 60px;
+        height: 100px;
     }
 }
 
@@ -341,3 +342,38 @@ table {
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { ... } */
+
+/* 語言切換按鈕樣式 */
+.language-selector {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.language-btn {
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+}
+
+.language-btn:hover {
+    background-color: #f8f9fa;
+}
+
+.language-btn.active {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .language-selector {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
