@@ -10,6 +10,314 @@
     <link href="../css/style.css" rel="stylesheet">
     <link rel="icon" href="../img/logo.png" type="image/x-icon" />
     <title data-i18n="site-title">宜蘭衿日林民宿|官方網站|最新消息|2025宜蘭國際童玩節預售票開賣</title>
+    
+    <!-- 現代化文章樣式 -->
+    <style>
+        .article-hero {
+            position: relative;
+            height: 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        }
+        
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.8) 0%, rgba(139, 92, 246, 0.8) 100%);
+            z-index: 1;
+        }
+        
+        .article-hero-content {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding: 2rem;
+            color: white;
+        }
+        
+        .article-badge {
+            display: inline-block;
+            background: #eab308;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            align-self: flex-start;
+        }
+        
+        .article-title-hero {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        
+        .article-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 40rem;
+        }
+        
+        .event-details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .event-detail-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(229, 231, 235, 0.5);
+            border-radius: 12px;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.2s ease;
+        }
+        
+        .event-detail-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .event-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(59, 130, 246, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3b82f6;
+            flex-shrink: 0;
+        }
+        
+        .pricing-section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin: 2rem 0;
+        }
+        
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        
+        .pricing-table th,
+        .pricing-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .pricing-table th {
+            background: #f9fafb;
+            font-weight: 600;
+            color: #374151;
+        }
+        
+        .price-original {
+            text-decoration: line-through;
+            color: #9ca3af;
+            margin-right: 0.5rem;
+        }
+        
+        .price-discount {
+            color: #059669;
+            font-weight: 600;
+        }
+        
+        .special-offers {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .offer-item {
+            background: white;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .offer-title {
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .section-icon {
+            width: 24px;
+            height: 24px;
+            color: #3b82f6;
+        }
+        
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        
+        .highlight-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(59, 130, 246, 0.1);
+            color: #3b82f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.875rem;
+            flex-shrink: 0;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            border-radius: 12px;
+            padding: 3rem 2rem;
+            text-align: center;
+            color: white;
+            margin: 3rem 0;
+        }
+        
+        .cta-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-description {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn-primary-cta {
+            background: white;
+            color: #3b82f6;
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-primary-cta:hover {
+            background: #f1f5f9;
+            transform: translateY(-1px);
+        }
+        
+        .btn-outline-cta {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-outline-cta:hover {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+            margin: 2rem 0;
+        }
+        
+        .content-main {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        .sidebar-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .article-title-hero {
+                font-size: 2rem;
+            }
+            
+            .article-subtitle {
+                font-size: 1rem;
+            }
+            
+            .cta-title {
+                font-size: 1.5rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -38,6 +346,9 @@
                         <a class="nav-link" href="https://jinbnb.com" data-i18n="nav-home">首頁</a>
                     </li>
                     <li class="nav-item dropdown">
+                        <a class="nav-link" href="../all-posts.html" data-i18n="nav-posts">所有文章</a>
+                    </li>
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="https://booking.owlting.com/jinbnb" target="_blank" data-i18n="nav-booking">官網優惠訂房</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -52,56 +363,215 @@
             </div>
         </div>
     </nav>
-    <div class="container post">
-        <h1 class="post-title" data-i18n="news-2025-ciff-title">2025宜蘭國際童玩節預售票開賣</h1>
-        <span class="post-day" data-i18n="news-2025-ciff-date">2025/5/1</span>
-        <div class="post-img">
-            <img src="../img/2025-ciff.jpg" alt="衿日林-2025國際童玩節">
+    <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1rem;">
+        <!-- Hero Section -->
+        <div class="article-hero">
+            <div class="article-hero-content">
+                <span class="article-badge">2025年度盛會</span>
+                <h1 class="article-title-hero" data-i18n="news-2025-ciff-title">2025宜蘭國際童玩節預售票開賣</h1>
+                <p class="article-subtitle">探索童趣世界，體驗無限歡樂的夏日盛典</p>
+            </div>
         </div>
-        <div class="post-content">
-            <p data-i18n="news-2025-ciff-intro">🎉 2025宜蘭國際童玩藝術節即將於7月5日至8月17日在冬山河親水公園舉行</p>
-            <p data-i18n="news-2025-ciff-time">⏰ 每天開放時間：上午9點至晚上9點</p>
-            <p data-i18n="news-2025-ciff-price-title">💰 票價資訊：</p>
-            <div class="post-subcontent">
-                <p data-i18n="news-2025-ciff-regular-price">一般票價：</p>
-                <p data-i18n="news-2025-ciff-weekday">- 平日券 250元</p>
-                <p data-i18n="news-2025-ciff-weekend">- 假日券 350元</p>
-                <p data-i18n="news-2025-ciff-presale">預售優惠票價（5/1-7/4）：</p>
-                <p data-i18n="news-2025-ciff-presale-weekday">- 平日券 200元（省50元）</p>
-                <p data-i18n="news-2025-ciff-presale-weekend">- 假日券 300元（省50元）</p>
+
+        <!-- 活動資訊卡片 -->
+        <div class="event-details-grid">
+            <div class="event-detail-card">
+                <div class="event-icon">📅</div>
+                <div>
+                    <p style="font-size: 0.875rem; color: #6b7280; margin: 0;">活動日期</p>
+                    <p style="font-weight: 600; margin: 0;" data-i18n="news-2025-ciff-intro">2025年7月5日至8月17日</p>
+                </div>
             </div>
-            <p data-i18n="news-2025-ciff-channel">🎫 購票管道：</p>
-            <div class="post-subcontent">
-                <p data-i18n="news-2025-ciff-channel-711">- 7-11超商ibon機台</p>
-                <p data-i18n="news-2025-ciff-channel-klook">- Klook線上平台</p>
+            <div class="event-detail-card">
+                <div class="event-icon">⏰</div>
+                <div>
+                    <p style="font-size: 0.875rem; color: #6b7280; margin: 0;">開放時間</p>
+                    <p style="font-weight: 600; margin: 0;" data-i18n="news-2025-ciff-time">上午9點至晚上9點</p>
+                </div>
             </div>
-            <p data-i18n="news-2025-ciff-special">✨ 特別優惠：</p>
-            <div class="post-subcontent">
-                <p data-i18n="news-2025-ciff-combo">🌟 童玩傳藝雙園區套票（含兩張園區門票及傳藝150元精選手作課程）</p>
-                <p data-i18n="news-2025-ciff-combo-weekday">- 平日券 450元</p>
-                <p data-i18n="news-2025-ciff-combo-weekend">- 假日券 550元</p>
-                <p data-i18n="news-2025-ciff-transport">🌟 大眾運輸優惠：搭乘指定客運可享優惠票價</p>
-                <p data-i18n="news-2025-ciff-transport-weekday">- 平日券 200元</p>
-                <p data-i18n="news-2025-ciff-transport-weekend">- 假日券 300元</p>
-                <p data-i18n="news-2025-ciff-card">🌟 第一銀行宜蘭認同卡優惠（每日一卡限4張）</p>
-                <p data-i18n="news-2025-ciff-card-weekday">- 平日券 200元</p>
-                <p data-i18n="news-2025-ciff-card-weekend">- 假日券 300元</p>
+            <div class="event-detail-card">
+                <div class="event-icon">📍</div>
+                <div>
+                    <p style="font-size: 0.875rem; color: #6b7280; margin: 0;">活動地點</p>
+                    <p style="font-weight: 600; margin: 0;">宜蘭冬山河親水公園</p>
+                </div>
             </div>
-            <p data-i18n="news-2025-ciff-night">🌙 星光票特惠：</p>
-            <div class="post-subcontent">
-                <p data-i18n="news-2025-ciff-night-price">- 票價：100元</p>
-                <p data-i18n="news-2025-ciff-night-time">- 購買時間：每天下午6點至7點現場購票</p>
-                <p data-i18n="news-2025-ciff-night-feature">- 特色：欣賞世界各國民俗團隊表演、全區遊藝踩街、夢幻水舞燈光秀</p>
+            <div class="event-detail-card">
+                <div class="event-icon">🏠</div>
+                <div>
+                    <p style="font-size: 0.875rem; color: #6b7280; margin: 0;">衿日林民宿</p>
+                    <p style="font-weight: 600; margin: 0;" data-i18n="news-2025-ciff-location">步行僅需1分鐘抵達</p>
+                </div>
             </div>
-            <p data-i18n="news-2025-ciff-location">📍 衿日林民宿位於童玩節會場正對面，步行僅需1分鐘！</p>
-            <p><span data-i18n="news-2025-ciff-more">🔍 更多票價資訊請上「2025宜蘭國際童玩藝術節」網站查詢：</span><a href="https://www.yicfff.tw" target="_blank">www.yicfff.tw</a></p>
-            <div class="post-subcontent">
-                <p>#2025童玩節</p>
-                <p>#宜蘭國際童玩藝術節</p>
-                <p>#預售票開賣</p>
-                <p>#衿日林民宿</p>
-                <p>#冬山河親水公園</p>
+        </div>
+
+        <!-- 主要內容區域 -->
+        <div class="content-grid">
+            <!-- 左側主要內容 -->
+            <div class="content-main">
+                <h2 class="section-title">
+                    <span class="section-icon">ℹ️</span>
+                    活動介紹
+                </h2>
+                <div style="line-height: 1.6; color: #374151;">
+                    <p data-i18n="news-2025-ciff-intro">🎉 2025宜蘭國際童玩藝術節即將於7月5日至8月17日在冬山河親水公園舉行</p>
+                    <p>這是一場結合國際文化、童玩體驗與藝術創作的夏日盛典。園區內設有多項國際級水上遊樂設施，包括巨型滑水道、水上迷宮、漂漂河等，讓大小朋友在炎炎夏日中享受清涼。</p>
+                    <p>今年特別增設「科技互動區」，結合AR/VR技術，讓參與者體驗沉浸式的童話世界。夜間還有絢麗的燈光秀和水舞表演，為夏夜增添浪漫氣息。</p>
+                </div>
+
+                <h2 class="section-title" style="margin-top: 3rem;">
+                    <span class="section-icon">⭐</span>
+                    活動亮點
+                </h2>
+                <div class="highlight-grid">
+                    <div class="highlight-item">
+                        <div class="highlight-number">1</div>
+                        <span>國際級水上遊樂設施</span>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-number">2</div>
+                        <span>各國特色表演節目</span>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-number">3</div>
+                        <span>DIY手作工作坊</span>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-number">4</div>
+                        <span>美食文化體驗區</span>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-number">5</div>
+                        <span>互動式藝術裝置</span>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-number">6</div>
+                        <span>夜間燈光秀</span>
+                    </div>
+                </div>
+
+                <!-- 購票資訊 -->
+                <h2 class="section-title" style="margin-top: 3rem;">
+                    <span class="section-icon">🎫</span>
+                    購票管道
+                </h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                    <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🏪</div>
+                        <div style="font-weight: 600;" data-i18n="news-2025-ciff-channel-711">7-11超商ibon機台</div>
+                    </div>
+                    <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">💻</div>
+                        <div style="font-weight: 600;" data-i18n="news-2025-ciff-channel-klook">Klook線上平台</div>
+                    </div>
+                </div>
             </div>
+
+            <!-- 右側價格資訊 -->
+            <div class="content-sidebar">
+                <!-- 票價表格 -->
+                <div class="pricing-section">
+                    <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 700;" data-i18n="news-2025-ciff-price-title">💰 票價資訊</h3>
+                    <table class="pricing-table">
+                        <thead>
+                            <tr>
+                                <th>票種</th>
+                                <th>價格</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="font-weight: 600;">平日券</td>
+                                <td>
+                                    <span class="price-original">250元</span>
+                                    <span class="price-discount" data-i18n="news-2025-ciff-presale-weekday">200元</span>
+                                    <div style="font-size: 0.75rem; color: #6b7280;">預售優惠省50元</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: 600;">假日券</td>
+                                <td>
+                                    <span class="price-original">350元</span>
+                                    <span class="price-discount" data-i18n="news-2025-ciff-presale-weekend">300元</span>
+                                    <div style="font-size: 0.75rem; color: #6b7280;">預售優惠省50元</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="font-size: 0.875rem; color: #6b7280; margin-top: 1rem;">
+                        * 預售優惠期間：5/1-7/4
+                    </div>
+                </div>
+
+                <!-- 特別優惠 -->
+                <div class="special-offers">
+                    <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 700;" data-i18n="news-2025-ciff-special">✨ 特別優惠</h3>
+                    
+                    <div class="offer-item">
+                        <div class="offer-title" data-i18n="news-2025-ciff-combo">🌟 童玩傳藝雙園區套票</div>
+                        <div style="font-size: 0.875rem; color: #6b7280;">含兩張園區門票及傳藝150元精選手作課程</div>
+                        <div style="margin-top: 0.5rem;">
+                            <span data-i18n="news-2025-ciff-combo-weekday">平日券 450元</span> / 
+                            <span data-i18n="news-2025-ciff-combo-weekend">假日券 550元</span>
+                        </div>
+                    </div>
+
+                    <div class="offer-item">
+                        <div class="offer-title" data-i18n="news-2025-ciff-transport">🌟 大眾運輸優惠</div>
+                        <div style="font-size: 0.875rem; color: #6b7280;">搭乘指定客運可享優惠票價</div>
+                        <div style="margin-top: 0.5rem;">
+                            <span data-i18n="news-2025-ciff-transport-weekday">平日券 200元</span> / 
+                            <span data-i18n="news-2025-ciff-transport-weekend">假日券 300元</span>
+                        </div>
+                    </div>
+
+                    <div class="offer-item">
+                        <div class="offer-title" data-i18n="news-2025-ciff-card">🌟 第一銀行宜蘭認同卡優惠</div>
+                        <div style="font-size: 0.875rem; color: #6b7280;">每日一卡限4張</div>
+                        <div style="margin-top: 0.5rem;">
+                            <span data-i18n="news-2025-ciff-card-weekday">平日券 200元</span> / 
+                            <span data-i18n="news-2025-ciff-card-weekend">假日券 300元</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 星光票 -->
+                <div class="sidebar-card" style="background: linear-gradient(135deg, #1e293b 0%, #334155 100%); color: white;">
+                    <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 700;" data-i18n="news-2025-ciff-night">🌙 星光票特惠</h3>
+                    <div style="margin-bottom: 1rem;">
+                        <div style="font-size: 1.5rem; font-weight: 700; color: #fbbf24;" data-i18n="news-2025-ciff-night-price">100元</div>
+                        <div style="font-size: 0.875rem; opacity: 0.8;" data-i18n="news-2025-ciff-night-time">每天下午6點至7點現場購票</div>
+                    </div>
+                    <div style="font-size: 0.875rem; opacity: 0.9;" data-i18n="news-2025-ciff-night-feature">
+                        欣賞世界各國民俗團隊表演、全區遊藝踩街、夢幻水舞燈光秀
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="cta-section">
+            <h2 class="cta-title">準備好迎接一個充滿歡樂的夏天了嗎？</h2>
+            <p class="cta-description">立即預購童玩節門票，與家人朋友一起體驗2025宜蘭國際童玩藝術節的無限樂趣！</p>
+            <div class="cta-buttons">
+                <a href="https://www.yicfff.tw" target="_blank" class="btn-primary-cta">立即購票</a>
+                <a href="https://booking.owlting.com/jinbnb" target="_blank" class="btn-outline-cta">預訂住宿</a>
+            </div>
+        </div>
+
+        <!-- 標籤 -->
+        <div style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            <span style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem;">#2025童玩節</span>
+            <span style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem;">#宜蘭國際童玩藝術節</span>
+            <span style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem;">#預售票開賣</span>
+            <span style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem;">#衿日林民宿</span>
+            <span style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem;">#冬山河親水公園</span>
+        </div>
+
+        <!-- 更多資訊 -->
+        <div style="margin-top: 2rem; padding: 1.5rem; background: #f8fafc; border-radius: 8px; text-align: center;">
+            <p style="margin: 0;"><span data-i18n="news-2025-ciff-more">🔍 更多票價資訊請上「2025宜蘭國際童玩藝術節」網站查詢：</span>
+            <a href="https://www.yicfff.tw" target="_blank" style="color: #3b82f6; font-weight: 600;">www.yicfff.tw</a></p>
         </div>
     </div>
     <section class="info container">

@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <!-- 五十二甲溼地穗花棋盤腳文章頁面 -->
+  <url>
+    <loc>https://jinbnb.com/post/2025-6-17-wetland.html</loc>
+    <lastmod>2025-01-17T03:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-<url>
-  <loc>https://jinbnb.com/post/2025-6-17-wetland.html</loc>
-  <lastmod>2025-01-17T03:00:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <!-- 主要文章列表頁面 -->
+  <url>
+    <loc>https://jinbnb.com/all-posts.html</loc>
+    <lastmod>2025-01-17T03:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
+  <!-- 首頁 -->
+  <url>
+    <loc>https://jinbnb.com/</loc>
+    <lastmod>2025-01-17T03:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
 </urlset> 

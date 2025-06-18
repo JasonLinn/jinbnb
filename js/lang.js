@@ -3,6 +3,7 @@ const translations = {
   'zh-TW': {
     // 導航欄
     'nav-home': '首頁',
+    'nav-posts': '所有文章',
     'nav-booking': '官網優惠訂房',
     'nav-line': 'LINE加入好友',
     
@@ -134,6 +135,7 @@ const translations = {
   'en': {
     // 導航欄
     'nav-home': 'Home',
+    'nav-posts': 'All Posts',
     'nav-booking': 'Book Online',
     'nav-line': 'Add LINE Friend',
     
