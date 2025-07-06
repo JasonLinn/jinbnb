@@ -1,15 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="宜蘭衿日林獨棟/包棟民宿，冬山河親水公園，童玩節會場正對面，提供平價套房、早餐、免費大型停車場，適合烤肉、唱歌、親子騎自行車，近傳統藝術中心、羅東夜市、三奇美徑。
-    今年童玩節以三大主要元素「國際」、「童玩」及「藝術節」出發，以「童玩原宇宙」為主題，相關市集以「創異童趣，藝起童樂」為題，期望大小朋友都能在此享受童（同）趣！">
+    <meta name="description" content="宜蘭衿日林獨棟/包棟民宿，冬山河親水公園，童玩節會場正對面，提供平價套房、早餐、免費大型停車場，適合烤肉、唱歌、親子騎自行車，近傳統藝術中心、羅東夜市、三奇美徑。今年童玩節以三大主要元素「國際」、「童玩」及「藝術節」出發，以「童玩原宇宙」為主題，相關市集以「創異童趣，藝起童樂」為題，期望大小朋友都能在此享受童趣！">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link rel="icon" href="../img/logo.png" type="image/x-icon" />
     <title>宜蘭衿日林民宿|官方網站|最新消息|2023宜蘭國際童玩節</title>
+    
+    <!-- 現代化文章樣式 -->
+    <style>
+        .article-hero {
+            position: relative;
+            height: 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+        }
+        
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.8) 0%, rgba(91, 33, 182, 0.8) 100%);
+            z-index: 1;
+        }
+        
+        .article-hero-content {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding: 2rem;
+            color: white;
+        }
+        
+        .article-badge {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            align-self: flex-start;
+        }
+        
+        .article-title-hero {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        
+        .article-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 40rem;
+        }
+        
+        .event-details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .event-detail-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(229, 231, 235, 0.5);
+            border-radius: 12px;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.2s ease;
+        }
+        
+        .event-detail-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .event-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(124, 58, 237, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7c3aed;
+            flex-shrink: 0;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .section-icon {
+            width: 24px;
+            height: 24px;
+            color: #7c3aed;
+        }
+        
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: #f3f4f6;
+            border-radius: 8px;
+            border: 1px solid rgba(124, 58, 237, 0.1);
+        }
+        
+        .highlight-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(124, 58, 237, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7c3aed;
+            font-weight: 600;
+            font-size: 0.875rem;
+            flex-shrink: 0;
+        }
+        
+        .content-section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin: 2rem 0;
+        }
+        
+        .theme-section {
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.05) 0%, rgba(91, 33, 182, 0.05) 100%);
+            border: 1px solid rgba(124, 58, 237, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .theme-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #7c3aed;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .theme-subtitle {
+            font-size: 1.1rem;
+            color: #5b21b6;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hashtag-section {
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.05) 0%, rgba(91, 33, 182, 0.05) 100%);
+            border: 1px solid rgba(124, 58, 237, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .hashtag-item {
+            display: inline-block;
+            background: rgba(124, 58, 237, 0.1);
+            color: #7c3aed;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            margin: 0.25rem;
+            font-weight: 600;
+        }
+        
+        .main-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        @media (max-width: 768px) {
+            .article-title-hero {
+                font-size: 2rem;
+            }
+            
+            .article-hero {
+                height: 300px;
+            }
+            
+            .article-hero-content {
+                padding: 1.5rem;
+            }
+            
+            .event-details-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -23,6 +241,7 @@
     <noscript><iframe loading="auto" src="https://www.googletagmanager.com/ns.html?id=GTM-54JWN92"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid container">
             <a class="navbar-brand" href="../index.html">
@@ -34,53 +253,232 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">所有房型</a>
-                    </li> -->
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="contact.html">匯款資訊</a>
-                    </li> -->
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                         <a class="nav-link" href="https://jinbnb.com">首頁</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="https://booking.owlting.com/jinbnb"  target="_blank">官網優惠訂房</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://booking.owlting.com/jinbnb" target="_blank">官網優惠訂房</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="https://lin.ee/cQjwwai"  target="_blank">LINE加入好友</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://lin.ee/cQjwwai" target="_blank">LINE加入好友</a>
                     </li>
                 </ul>
             </div>
-            <!-- <a href="https://lin.ee/QH9kZBd"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a> -->
         </div>
     </nav>
-    <section class="post container">
-        <h1 class="post-title">2023童玩節開幕！</h1>
-        <span class="post-day">2023/7/1</span>
-        <div class="post-content">
-        <p>🔥 活動時間 112年7月1日~8月13日</p>
-        <p>今年童玩節以三大主要元素「國際」、「童玩」及「藝術節」出發，以「童玩原宇宙」為主題，相關市集以「創異童趣，藝起童樂」為題，期望大小朋友都能在此享受童（同）趣！</p>
+    
+    <div class="container" style="margin-top: 100px;">
+        <!-- Hero Section -->
+        <div class="article-hero">
+            <div class="article-hero-content">
+                <div class="article-badge">盛大開幕</div>
+                <h1 class="article-title-hero">2023童玩節開幕！</h1>
+                <p class="article-subtitle">童玩原宇宙主題登場，創異童趣，藝起童樂</p>
+            </div>
         </div>
-        <div class="post-img">
-            <img src="../img/2023-ciff.jpg" alt="衿日林-2023國際童玩節">
+        
+        <!-- Event Details -->
+        <div class="event-details-grid">
+            <div class="event-detail-card">
+                <div class="event-icon">🗓️</div>
+                <div>
+                    <div style="font-weight: 600;">活動期間</div>
+                    <div style="color: #6b7280;">2023年7月1日～8月13日</div>
+                </div>
+            </div>
+            
+            <div class="event-detail-card">
+                <div class="event-icon">🌟</div>
+                <div>
+                    <div style="font-weight: 600;">活動主題</div>
+                    <div style="color: #6b7280;">童玩原宇宙</div>
+                </div>
+            </div>
+            
+            <div class="event-detail-card">
+                <div class="event-icon">🎪</div>
+                <div>
+                    <div style="font-weight: 600;">市集主題</div>
+                    <div style="color: #6b7280;">創異童趣，藝起童樂</div>
+                </div>
+            </div>
+            
+            <div class="event-detail-card">
+                <div class="event-icon">🚶</div>
+                <div>
+                    <div style="font-weight: 600;">距離民宿</div>
+                    <div style="color: #6b7280;">步行僅1分鐘</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 活動主題 -->
+        <div class="theme-section">
+            <div class="theme-title">✨ 童玩原宇宙 ✨</div>
+            <div class="theme-subtitle">創異童趣，藝起童樂</div>
+            <p style="text-align: center; line-height: 1.6;">
+                今年童玩節以三大主要元素「國際」、「童玩」及「藝術節」出發，
+                以「童玩原宇宙」為主題，相關市集以「創異童趣，藝起童樂」為題，
+                期望大小朋友都能在此享受童（同）趣！
+            </p>
+        </div>
+        
+        <!-- 三大元素 -->
+        <div class="content-section">
+            <h2 class="section-title">
+                <span class="section-icon">🎯</span>
+                三大主要元素
+            </h2>
+            <div class="highlight-grid">
+                <div class="highlight-item">
+                    <div class="highlight-number">🌍</div>
+                    <div>
+                        <div style="font-weight: 600;">國際</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">世界各國文化交流</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🎮</div>
+                    <div>
+                        <div style="font-weight: 600;">童玩</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">傳統與現代遊戲融合</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🎭</div>
+                    <div>
+                        <div style="font-weight: 600;">藝術節</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">創意藝術表演</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 活動特色 -->
+        <div class="content-section">
+            <h2 class="section-title">
+                <span class="section-icon">🎨</span>
+                活動特色
+            </h2>
+            <div class="highlight-grid">
+                <div class="highlight-item">
+                    <div class="highlight-number">🎪</div>
+                    <div>
+                        <div style="font-weight: 600;">創異童趣</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">創新異趣的童玩體驗</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🎵</div>
+                    <div>
+                        <div style="font-weight: 600;">藝起童樂</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">藝術與童樂完美結合</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">👨‍👩‍👧‍👦</div>
+                    <div>
+                        <div style="font-weight: 600;">全家同樂</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">大小朋友都能盡情享受</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🌟</div>
+                    <div>
+                        <div style="font-weight: 600;">原宇宙體驗</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">沉浸式童玩世界</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 民宿優勢 -->
+        <div class="content-section">
+            <h2 class="section-title">
+                <span class="section-icon">🏨</span>
+                衿日林民宿優勢
+            </h2>
+            <div class="highlight-grid">
+                <div class="highlight-item">
+                    <div class="highlight-number">📍</div>
+                    <div>
+                        <div style="font-weight: 600;">絕佳位置</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">步行1分鐘到童玩節會場</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🏠</div>
+                    <div>
+                        <div style="font-weight: 600;">舒適住宿</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">多種房型選擇</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🚗</div>
+                    <div>
+                        <div style="font-weight: 600;">免費停車</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">大型停車場</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🍳</div>
+                    <div>
+                        <div style="font-weight: 600;">早餐服務</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">豐富營養早餐</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 主要圖片 -->
+        <div class="image-container">
+            <img src="../img/2023-ciff.jpg" alt="衿日林-2023國際童玩節" class="main-image">
+        </div>
+        
+        <!-- Hashtags -->
+        <div class="hashtag-section">
+            <h3 class="section-title">
+                <span class="section-icon">#</span>
+                相關標籤
+            </h3>
+            <div>
+                <span class="hashtag-item">#2023童玩節</span>
+                <span class="hashtag-item">#童玩原宇宙</span>
+                <span class="hashtag-item">#創異童趣</span>
+                <span class="hashtag-item">#藝起童樂</span>
+                <span class="hashtag-item">#衿日林民宿</span>
+                <span class="hashtag-item">#宜蘭住宿</span>
+                <span class="hashtag-item">#冬山河親水公園</span>
+                <span class="hashtag-item">#親子旅遊</span>
+            </div>
         </div>
     </div>
-    </section>
+    
     <section class="info container">
         <h3 class="title">聯絡資訊</h3>
         <div class="infoText">
-        <p class="infoNumber"><span class="bold">訂房專線:</span> <a class="phone" href="tel:+886-928-836-163">0928-836-163</a> 林先生</p>
-        <p class="infoNumber"><span class="bold">LINE:</span> @a116
-            <a data-v-6fa6a74a="" href="https://lin.ee/jTAtZK5"><img data-v-6fa6a74a="" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="衿日林-LINE加入好友" height="30" border="0"></a>
-        </p>
+            <p class="infoNumber"><span class="bold">訂房專線:</span> <a class="phone" href="tel:+886-928-836-163">0928-836-163</a> 林先生</p>
+            <p class="infoNumber"><span class="bold">LINE:</span> @a116
+                <a href="https://lin.ee/jTAtZK5"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="衿日林-LINE加入好友" height="30" border="0"></a>
+            </p>
         </div>
     </section>
+    
     <footer id="footer" class="bg-light">
         <div class="container">
-        衿日林民宿 All Rights Reserved.
+            衿日林民宿 All Rights Reserved.
         </div>
     </footer>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
 </body>
-<script src="../js/bootstrap.bundle.min.js"></script>
-<script src="../js/lightbox.min.js"></script>
 </html>

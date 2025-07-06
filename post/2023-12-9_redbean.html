@@ -1,22 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="宜蘭衿日林獨棟/包棟民宿，冬山河親水公園，童玩節會場正對面，提供平價套房、早餐、免費大型停車場，適合烤肉、唱歌、親子騎自行車，近傳統藝術中心、羅東夜市、三奇美徑。
-    👉即日起至 113年1月31日
-    👉包棟入住即獲贈一鍋 #暖心的紅豆湯圓 😍
-    #衿日林民宿 誠摯邀您包棟享受專屬空間，無論是家庭聚會或好友相聚，我們提供獨特體驗，讓您感受滿滿溫暖與溫馨。
-    👉獨享
-    #庭院烤肉場地
-    #卡拉OK
-    #電動麻將
-    #中式早餐">
+    <meta name="description" content="宜蘭衿日林獨棟/包棟民宿，冬山河親水公園，童玩節會場正對面，提供平價套房、早餐、免費大型停車場，適合烤肉、唱歌、親子騎自行車，近傳統藝術中心、羅東夜市、三奇美徑。即日起至113年1月31日包棟入住即獲贈一鍋暖心的紅豆湯圓。">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link rel="icon" href="../img/logo.png" type="image/x-icon" />
     <title>宜蘭衿日林民宿|官方網站|最新消息|包棟贈紅豆湯圓</title>
+    
+    <!-- 現代化文章樣式 -->
+    <style>
+        .article-hero {
+            position: relative;
+            height: 400px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+        }
+        
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.8) 0%, rgba(153, 27, 27, 0.8) 100%);
+            z-index: 1;
+        }
+        
+        .article-hero-content {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding: 2rem;
+            color: white;
+        }
+        
+        .article-badge {
+            display: inline-block;
+            background: #f59e0b;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            align-self: flex-start;
+        }
+        
+        .article-title-hero {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        
+        .article-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 40rem;
+        }
+        
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .detail-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(229, 231, 235, 0.5);
+            border-radius: 12px;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.2s ease;
+        }
+        
+        .detail-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .detail-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(220, 38, 38, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #dc2626;
+            flex-shrink: 0;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .section-icon {
+            width: 24px;
+            height: 24px;
+            color: #dc2626;
+        }
+        
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: #fef2f2;
+            border-radius: 8px;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+        }
+        
+        .highlight-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(220, 38, 38, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #dc2626;
+            font-weight: 600;
+            font-size: 0.875rem;
+            flex-shrink: 0;
+        }
+        
+        .content-section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin: 2rem 0;
+        }
+        
+        .promo-section {
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.05) 0%, rgba(153, 27, 27, 0.05) 100%);
+            border: 1px solid rgba(220, 38, 38, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .promo-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #dc2626;
+            margin-bottom: 1rem;
+        }
+        
+        .promo-period {
+            background: #dc2626;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        
+        .hashtag-section {
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.05) 0%, rgba(153, 27, 27, 0.05) 100%);
+            border: 1px solid rgba(220, 38, 38, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .hashtag-item {
+            display: inline-block;
+            background: rgba(220, 38, 38, 0.1);
+            color: #dc2626;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            margin: 0.25rem;
+            font-weight: 600;
+        }
+        
+        .main-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        @media (max-width: 768px) {
+            .article-title-hero {
+                font-size: 2rem;
+            }
+            
+            .article-hero {
+                height: 300px;
+            }
+            
+            .article-hero-content {
+                padding: 1.5rem;
+            }
+            
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -30,6 +244,7 @@
     <noscript><iframe loading="auto" src="https://www.googletagmanager.com/ns.html?id=GTM-54JWN92"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid container">
             <a class="navbar-brand" href="../index.html">
@@ -41,60 +256,196 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">所有房型</a>
-                    </li> -->
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="contact.html">匯款資訊</a>
-                    </li> -->
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
                         <a class="nav-link" href="https://jinbnb.com">首頁</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="https://booking.owlting.com/jinbnb"  target="_blank">官網優惠訂房</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://booking.owlting.com/jinbnb" target="_blank">官網優惠訂房</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="https://lin.ee/cQjwwai"  target="_blank">LINE加入好友</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://lin.ee/cQjwwai" target="_blank">LINE加入好友</a>
                     </li>
                 </ul>
             </div>
-            <!-- <a href="https://lin.ee/QH9kZBd"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a> -->
         </div>
     </nav>
-    <section class="post container">
-        <h1 class="post-title">包棟贈紅豆湯圓</h1>
-        <span class="post-day">發文日期：2023/12/9</span>
-        <div class="post-content">
-            <p>👉 即日起至 113年1月31日</p>
-            <p>👉 包棟入住即獲贈一鍋 #暖心的紅豆湯圓 😍</p>
-            <p>👉 衿日林民宿 誠摯邀您包棟享受專屬空間，無論是家庭聚會或好友相聚，我們提供獨特體驗，讓您感受滿滿溫暖與溫馨。</p>
-            <p>👉 獨享:</p>
-            <div class="post-subcontent">
-                <p>#庭院烤肉場地</p>
-                <p>#卡拉OK</p>
-                <p>#電動麻將</p>
-                <p>#中式早餐</p>
-            </div>
-            <div class="post-img">
-                <img src="../img/redbean.jpg" alt="衿日林紅豆湯圓">
+    
+    <div class="container" style="margin-top: 100px;">
+        <!-- Hero Section -->
+        <div class="article-hero">
+            <div class="article-hero-content">
+                <div class="article-badge">限時優惠</div>
+                <h1 class="article-title-hero">包棟贈紅豆湯圓</h1>
+                <p class="article-subtitle">即日起至113年1月31日，包棟入住即獲贈一鍋暖心的紅豆湯圓</p>
             </div>
         </div>
-    </section>
+        
+        <!-- Promo Details -->
+        <div class="promo-section">
+            <div class="promo-title">🎉 特別優惠活動</div>
+            <div class="promo-period">即日起至113年1月31日</div>
+            <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">包棟入住即獲贈一鍋暖心的紅豆湯圓 😍</p>
+            <p>衿日林民宿誠摯邀您包棟享受專屬空間，無論是家庭聚會或好友相聚，我們提供獨特體驗，讓您感受滿滿溫暖與溫馨。</p>
+        </div>
+        
+        <!-- Package Details -->
+        <div class="details-grid">
+            <div class="detail-card">
+                <div class="detail-icon">🏠</div>
+                <div>
+                    <div style="font-weight: 600;">包棟服務</div>
+                    <div style="color: #6b7280;">專屬空間，隱私保障</div>
+                </div>
+            </div>
+            
+            <div class="detail-card">
+                <div class="detail-icon">🍲</div>
+                <div>
+                    <div style="font-weight: 600;">暖心贈品</div>
+                    <div style="color: #6b7280;">一鍋紅豆湯圓</div>
+                </div>
+            </div>
+            
+            <div class="detail-card">
+                <div class="detail-icon">👨‍👩‍👧‍👦</div>
+                <div>
+                    <div style="font-weight: 600;">適合對象</div>
+                    <div style="color: #6b7280;">家庭聚會、好友相聚</div>
+                </div>
+            </div>
+            
+            <div class="detail-card">
+                <div class="detail-icon">📅</div>
+                <div>
+                    <div style="font-weight: 600;">活動期間</div>
+                    <div style="color: #6b7280;">即日起至113年1月31日</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 包棟設施 -->
+        <div class="content-section">
+            <h2 class="section-title">
+                <span class="section-icon">🏨</span>
+                包棟專屬設施
+            </h2>
+            <div class="highlight-grid">
+                <div class="highlight-item">
+                    <div class="highlight-number">🔥</div>
+                    <div>
+                        <div style="font-weight: 600;">庭院烤肉場地</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">戶外烤肉，享受自然</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🎤</div>
+                    <div>
+                        <div style="font-weight: 600;">卡拉OK</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">歡唱聚會，增進感情</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🀄</div>
+                    <div>
+                        <div style="font-weight: 600;">電動麻將</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">休閒娛樂，放鬆身心</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🍳</div>
+                    <div>
+                        <div style="font-weight: 600;">中式早餐</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">營養豐富，活力一天</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 包棟優勢 -->
+        <div class="content-section">
+            <h2 class="section-title">
+                <span class="section-icon">⭐</span>
+                包棟體驗優勢
+            </h2>
+            <div class="highlight-grid">
+                <div class="highlight-item">
+                    <div class="highlight-number">🔒</div>
+                    <div>
+                        <div style="font-weight: 600;">專屬隱私</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">獨享整棟空間，不受干擾</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">👨‍👩‍👧‍👦</div>
+                    <div>
+                        <div style="font-weight: 600;">家庭聚會</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">多代同堂，溫馨相聚</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🎉</div>
+                    <div>
+                        <div style="font-weight: 600;">好友聚會</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">同學同事，歡樂時光</div>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-number">🎁</div>
+                    <div>
+                        <div style="font-weight: 600;">獨特體驗</div>
+                        <div style="color: #6b7280; font-size: 0.875rem;">溫暖服務，難忘回憶</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 主要圖片 -->
+        <div class="image-container">
+            <img src="../img/redbean.jpg" alt="衿日林紅豆湯圓" class="main-image">
+        </div>
+        
+        <!-- Hashtags -->
+        <div class="hashtag-section">
+            <h3 class="section-title">
+                <span class="section-icon">#</span>
+                相關標籤
+            </h3>
+            <div>
+                <span class="hashtag-item">#包棟贈紅豆湯圓</span>
+                <span class="hashtag-item">#庭院烤肉場地</span>
+                <span class="hashtag-item">#卡拉OK</span>
+                <span class="hashtag-item">#電動麻將</span>
+                <span class="hashtag-item">#中式早餐</span>
+                <span class="hashtag-item">#衿日林民宿</span>
+                <span class="hashtag-item">#宜蘭包棟</span>
+                <span class="hashtag-item">#家庭聚會</span>
+            </div>
+        </div>
+    </div>
+    
     <section class="info container">
         <h3 class="title">聯絡資訊</h3>
         <div class="infoText">
-        <p class="infoNumber"><span class="bold">訂房專線:</span> <a class="phone" href="tel:+886-928-836-163">0928-836-163</a> 林先生</p>
-        <p class="infoNumber"><span class="bold">LINE:</span> @a116
-            <a data-v-6fa6a74a="" href="https://lin.ee/jTAtZK5"><img data-v-6fa6a74a="" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="衿日林-LINE加入好友" height="30" border="0"></a>
-        </p>
+            <p class="infoNumber"><span class="bold">訂房專線:</span> <a class="phone" href="tel:+886-928-836-163">0928-836-163</a> 林先生</p>
+            <p class="infoNumber"><span class="bold">LINE:</span> @a116
+                <a href="https://lin.ee/jTAtZK5"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="衿日林-LINE加入好友" height="30" border="0"></a>
+            </p>
         </div>
     </section>
+    
     <footer id="footer" class="bg-light">
         <div class="container">
-        衿日林民宿 All Rights Reserved.
+            衿日林民宿 All Rights Reserved.
         </div>
     </footer>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
 </body>
-<script src="../js/bootstrap.bundle.min.js"></script>
-<script src="../js/lightbox.min.js"></script>
 </html>
