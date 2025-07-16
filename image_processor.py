@@ -8,7 +8,6 @@
 import os
 import json
 import hashlib
-import shutil
 from PIL import Image, ExifTags
 import argparse
 from datetime import datetime
@@ -18,7 +17,6 @@ class ImageProcessor:
     def __init__(self, record_file: str = "processed_images.json"):
         self.record_file = record_file
         self.processed_images = self.load_records()
-        self.backup_dir = "backup"
     
     def load_records(self) -> Dict:
         """載入處理紀錄"""
@@ -43,26 +41,6 @@ class ImageProcessor:
                 hash_md5.update(chunk)
         return hash_md5.hexdigest()
     
-    def create_backup(self, file_path: str) -> str:
-        """建立檔案備份"""
-        if not os.path.exists(file_path):
-            return None
-        
-        # 建立備份目錄
-        os.makedirs(self.backup_dir, exist_ok=True)
-        
-        # 產生備份檔案名稱（加上時間戳記）
-        filename = os.path.basename(file_path)
-        name, ext = os.path.splitext(filename)
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        backup_filename = f"{name}_{timestamp}{ext}"
-        backup_path = os.path.join(self.backup_dir, backup_filename)
-        
-        # 複製原檔案到備份目錄
-        shutil.copy2(file_path, backup_path)
-        print(f"已備份原檔案: {backup_path}")
-        
-        return backup_path
     
     def correct_image_orientation(self, image: Image.Image) -> Image.Image:
         """修正圖片方向（根據 EXIF 資訊）"""
@@ -186,9 +164,6 @@ class ImageProcessor:
         if output_path is None:
             output_path = input_path
         
-        # 如果是覆蓋原檔案，先建立備份
-        if output_path == input_path:
-            self.create_backup(input_path)
         
         # 確保輸出目錄存在
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
