@@ -1,0 +1,2933 @@
+{
+  "323d52b686920cb900fb1d6f4fa7c594_0d57fad01830adb305a0fc96d60714d7": {
+    "input_path": "img/2023-ciff.jpg",
+    "output_path": "img/2023-ciff.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.013032",
+    "file_hash": "323d52b686920cb900fb1d6f4fa7c594"
+  },
+  "cbc0aaedc59062c571af6e7eee846fa8_3d0b372ca20249ecf5f921a561288977": {
+    "input_path": "img/2024-ciff.jpg",
+    "output_path": "img/2024-ciff.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.027111",
+    "file_hash": "cbc0aaedc59062c571af6e7eee846fa8"
+  },
+  "10d28cbaa06f00386ffb87babc414353_c69704273972c35f9a7300f4db53a43a": {
+    "input_path": "img/2025-ciff.jpg",
+    "output_path": "img/2025-ciff.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.032143",
+    "file_hash": "10d28cbaa06f00386ffb87babc414353"
+  },
+  "a483865182481f53d3b473445b228868_208a1843562dfb4b1cde12d95e4f40e6": {
+    "input_path": "img/497C6339-13.jpg",
+    "output_path": "img/497C6339-13.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.201936",
+    "file_hash": "a483865182481f53d3b473445b228868"
+  },
+  "648da3a68468da7eb5859235f6e3c378_2b877d11965c7bd6f92663f6eb22f05c": {
+    "input_path": "img/497C6370-19.jpg",
+    "output_path": "img/497C6370-19.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.384750",
+    "file_hash": "648da3a68468da7eb5859235f6e3c378"
+  },
+  "c89f0b6fdfdca7ac23f160485d7e9581_311326c6421cb2b271e087e35ee7a060": {
+    "input_path": "img/a218.jpg",
+    "output_path": "img/a218.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.392526",
+    "file_hash": "c89f0b6fdfdca7ac23f160485d7e9581"
+  },
+  "cc76a6c593809763b930399dc4287208_2057396e496b07627084d135a32b8c95": {
+    "input_path": "img/a238.jpg",
+    "output_path": "img/a238.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.400962",
+    "file_hash": "cc76a6c593809763b930399dc4287208"
+  },
+  "39dd11187def5493e6847f1df5bb1b8c_871204876ddb7a803e92bf1c27bf930f": {
+    "input_path": "img/a248.jpg",
+    "output_path": "img/a248.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.408300",
+    "file_hash": "39dd11187def5493e6847f1df5bb1b8c"
+  },
+  "d659be59f2f0433a59d50843b565fbdd_1219f828e4bf4ee8937e1a2793efdba7": {
+    "input_path": "img/a258.jpg",
+    "output_path": "img/a258.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.416343",
+    "file_hash": "d659be59f2f0433a59d50843b565fbdd"
+  },
+  "a95023a037f580641c509ae023a13d5a_d0a2cbcb842d70d409f601533c05a74c": {
+    "input_path": "img/a268.jpg",
+    "output_path": "img/a268.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.425749",
+    "file_hash": "a95023a037f580641c509ae023a13d5a"
+  },
+  "d8db6fa904f752fed6d5d9fa29c083c5_f1c42bcc64ff5a7c71a8d45656b58051": {
+    "input_path": "img/a288.jpg",
+    "output_path": "img/a288.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.433534",
+    "file_hash": "d8db6fa904f752fed6d5d9fa29c083c5"
+  },
+  "142553d533d6e7531c5a35ef63b4a3f4_79178fdf768f57fa666e69a63360fac4": {
+    "input_path": "img/a318.jpg",
+    "output_path": "img/a318.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.440385",
+    "file_hash": "142553d533d6e7531c5a35ef63b4a3f4"
+  },
+  "300d86def84225b4b00b4a3bf18a587d_d09680ab249d99cd5d8e1ea244133e55": {
+    "input_path": "img/a328.jpg",
+    "output_path": "img/a328.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.447859",
+    "file_hash": "300d86def84225b4b00b4a3bf18a587d"
+  },
+  "1511351b1a01eb0740480eb1a5425def_ab1cd4c065c4d3d066c45f37332593c5": {
+    "input_path": "img/a338.jpg",
+    "output_path": "img/a338.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.455615",
+    "file_hash": "1511351b1a01eb0740480eb1a5425def"
+  },
+  "6db273caad3f5297307ec17e8828adef_acd4c88584f66459af5be998b9808173": {
+    "input_path": "img/a348.jpg",
+    "output_path": "img/a348.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.462810",
+    "file_hash": "6db273caad3f5297307ec17e8828adef"
+  },
+  "efe5efdcaed4946c7f4ad9722c3d2744_8116fbd0e67a83cd5002e3bda69611d4": {
+    "input_path": "img/ab.jpg",
+    "output_path": "img/ab.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.470906",
+    "file_hash": "efe5efdcaed4946c7f4ad9722c3d2744"
+  },
+  "a0cdd2eb97933259c33ce7dca4ddf8dd_eb3b78185141d23bda635a9b74695ad2": {
+    "input_path": "img/b1.jpg",
+    "output_path": "img/b1.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.479408",
+    "file_hash": "a0cdd2eb97933259c33ce7dca4ddf8dd"
+  },
+  "15f0966ed912b812a63121323311a912_d3b6ec4b9148d266d6bdba917841c94a": {
+    "input_path": "img/b2.jpg",
+    "output_path": "img/b2.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.487462",
+    "file_hash": "15f0966ed912b812a63121323311a912"
+  },
+  "29485554908749dbf0528b077e7c79e4_9658e886bf4eb1a544da8053da7cbb50": {
+    "input_path": "img/b3.jpg",
+    "output_path": "img/b3.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.494922",
+    "file_hash": "29485554908749dbf0528b077e7c79e4"
+  },
+  "f015b9eee208be4b110e55ecc1e517e6_c0767049c67816bca5e35a6ef5238dd4": {
+    "input_path": "img/bathroom.jpg",
+    "output_path": "img/bathroom.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.510830",
+    "file_hash": "f015b9eee208be4b110e55ecc1e517e6"
+  },
+  "128a90ffe5caf8f9c4a51ce38bb63664_bae56018980238df737acd52007f718c": {
+    "input_path": "img/bbq.jpg",
+    "output_path": "img/bbq.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.521196",
+    "file_hash": "128a90ffe5caf8f9c4a51ce38bb63664"
+  },
+  "96610a6ba8e7d6c3814a90585908ebcd_770a248664270147310ca3cbc30a751c": {
+    "input_path": "img/birthday.jpg",
+    "output_path": "img/birthday.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.530569",
+    "file_hash": "96610a6ba8e7d6c3814a90585908ebcd"
+  },
+  "217284e86a9f45786c4956bd4d88ca40_9c4431394dba76cf9fb94b5e0740ca8a": {
+    "input_path": "img/brige.jpg",
+    "output_path": "img/brige.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.538079",
+    "file_hash": "217284e86a9f45786c4956bd4d88ca40"
+  },
+  "74786d02e50e092128dd40d9b215d24a_056e36fcf9e3a98bedd5cfa533846eb6": {
+    "input_path": "img/carve.jpg",
+    "output_path": "img/carve.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.546943",
+    "file_hash": "74786d02e50e092128dd40d9b215d24a"
+  },
+  "d10b28c474396ffffe00047ef54b3541_9b73bedb030607eca43d0660fb045528": {
+    "input_path": "img/good-bnb.png",
+    "output_path": "img/good-bnb.png",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.549656",
+    "file_hash": "d10b28c474396ffffe00047ef54b3541"
+  },
+  "41fbc7778f0c3ba59d5e616a9624464f_5a5f5461b3a0888f58d84dfafe173050": {
+    "input_path": "img/hot-spring.jpg",
+    "output_path": "img/hot-spring.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.567387",
+    "file_hash": "41fbc7778f0c3ba59d5e616a9624464f"
+  },
+  "0b40d4555032bfdbb8787dcbb7d414ef_5aff8ac4f83fe7ce35ef1d33bf91ed82": {
+    "input_path": "img/IMG_3538.jpg",
+    "output_path": "img/IMG_3538.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.756523",
+    "file_hash": "0b40d4555032bfdbb8787dcbb7d414ef"
+  },
+  "d004198446129722219ab348c86cb71a_f7eae5ddb4dabc62cea70f228d9a89bc": {
+    "input_path": "img/IMG_3540.jpg",
+    "output_path": "img/IMG_3540.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:16.956625",
+    "file_hash": "d004198446129722219ab348c86cb71a"
+  },
+  "7024064f0f7aae4926288988b759e97b_67785ea4cdf50f8f9db865ba7a89ff16": {
+    "input_path": "img/IMG_3550.jpg",
+    "output_path": "img/IMG_3550.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.137422",
+    "file_hash": "7024064f0f7aae4926288988b759e97b"
+  },
+  "e7a21187f245bd12adab8327743889bb_e8b22becdd49cdc5d109163a212da960": {
+    "input_path": "img/IMG_5544.jpg",
+    "output_path": "img/IMG_5544.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.244015",
+    "file_hash": "e7a21187f245bd12adab8327743889bb"
+  },
+  "10e5684e2054e7cfeee693818192d84c_c3b8f723cf60212ce762da3555112c69": {
+    "input_path": "img/IMG_6620.jpg",
+    "output_path": "img/IMG_6620.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.337646",
+    "file_hash": "10e5684e2054e7cfeee693818192d84c"
+  },
+  "64770c512934feeecb87674e747f6a76_30415f9fd354d339db7188306f5e4373": {
+    "input_path": "img/IMG_6626.jpg",
+    "output_path": "img/IMG_6626.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.419869",
+    "file_hash": "64770c512934feeecb87674e747f6a76"
+  },
+  "fd1a882c91ae03c108af325c7203ca60_d132ffd40218b6ec3db930eb237f0a7a": {
+    "input_path": "img/IMG_6635.jpg",
+    "output_path": "img/IMG_6635.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.513605",
+    "file_hash": "fd1a882c91ae03c108af325c7203ca60"
+  },
+  "8a34ac96200f3f6fdfc2e3b27898cb39_f5654b4d472a84b01442b01e36a7bbf1": {
+    "input_path": "img/IMG_6636.jpg",
+    "output_path": "img/IMG_6636.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.596030",
+    "file_hash": "8a34ac96200f3f6fdfc2e3b27898cb39"
+  },
+  "8570b673352027d7f1c0825c122539f3_1d91e26f756334a408068e6898eec385": {
+    "input_path": "img/IMG_6657.jpg",
+    "output_path": "img/IMG_6657.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.682844",
+    "file_hash": "8570b673352027d7f1c0825c122539f3"
+  },
+  "8cfa253eb11e4badb4af33780df64198_0252af26252c97b3d2e365192e116dfe": {
+    "input_path": "img/IMG_6671.jpg",
+    "output_path": "img/IMG_6671.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.775525",
+    "file_hash": "8cfa253eb11e4badb4af33780df64198"
+  },
+  "4cc067aeb5abe9c6f8196554d66209a7_516602662fdebbb3f9bf48360bf57845": {
+    "input_path": "img/IMG_7163.jpg",
+    "output_path": "img/IMG_7163.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:17.874601",
+    "file_hash": "4cc067aeb5abe9c6f8196554d66209a7"
+  },
+  "e8cd4455142270bb4793262dfd3734a7_5ba8ae64784ca8a260df3f0386ca521e": {
+    "input_path": "img/living_room.jpg",
+    "output_path": "img/living_room.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.048687",
+    "file_hash": "e8cd4455142270bb4793262dfd3734a7"
+  },
+  "cbb894b43e164bfbb90630e4932ec2ab_597cd5fa462e054740e86cb4bb0cc54b": {
+    "input_path": "img/living_room1.jpg",
+    "output_path": "img/living_room1.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.062220",
+    "file_hash": "cbb894b43e164bfbb90630e4932ec2ab"
+  },
+  "19fd7a687814a8cfb706e487fbe7a6c5_943fecabac35f185475d33c1eececc37": {
+    "input_path": "img/logo.png",
+    "output_path": "img/logo.png",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.152094",
+    "file_hash": "19fd7a687814a8cfb706e487fbe7a6c5"
+  },
+  "e5dca6bbe8b8a7a40250387022fe08fb_d96252b827383d1bd084831d9283a522": {
+    "input_path": "img/majun.jpg",
+    "output_path": "img/majun.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.165652",
+    "file_hash": "e5dca6bbe8b8a7a40250387022fe08fb"
+  },
+  "405fec51dd0eefe7824971956baa64c5_de5d5b7e913e5e25fee3496802647ac8": {
+    "input_path": "img/meet.jpg",
+    "output_path": "img/meet.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.292207",
+    "file_hash": "405fec51dd0eefe7824971956baa64c5"
+  },
+  "c0bd89866a7e4e65851c7f7e864766ef_ed9e32687a7b2faf27212036ebe28a2f": {
+    "input_path": "img/meet1.jpg",
+    "output_path": "img/meet1.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.301886",
+    "file_hash": "c0bd89866a7e4e65851c7f7e864766ef"
+  },
+  "f7e804a482b1989e5160f04b66e244c5_ebd4095aea04d1ba0223bcf4c927bfd8": {
+    "input_path": "img/outside-night.jpg",
+    "output_path": "img/outside-night.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.311877",
+    "file_hash": "f7e804a482b1989e5160f04b66e244c5"
+  },
+  "dd38085e7b0ca594594389f27b041f75_350dd46519ded39413514d5f607a99fb": {
+    "input_path": "img/outside.jpg",
+    "output_path": "img/outside.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.320601",
+    "file_hash": "dd38085e7b0ca594594389f27b041f75"
+  },
+  "b88270c753c09e4f02345741ebab9e20_91a28efb896c4ce362bf026b5e9838f9": {
+    "input_path": "img/pool.jpg",
+    "output_path": "img/pool.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.343355",
+    "file_hash": "b88270c753c09e4f02345741ebab9e20"
+  },
+  "14b8499df6ec6c817fb27c8b29abafa3_2e76a0ddb1eb2e05e5ad56eac0c8cf00": {
+    "input_path": "img/pool3.jpg",
+    "output_path": "img/pool3.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.354847",
+    "file_hash": "14b8499df6ec6c817fb27c8b29abafa3"
+  },
+  "7b68530760b3bc3909ed37a7753fdddb_1b8a042eef1279f49bc32bba57d3e5e7": {
+    "input_path": "img/redbean.jpg",
+    "output_path": "img/redbean.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.362182",
+    "file_hash": "7b68530760b3bc3909ed37a7753fdddb"
+  },
+  "d95659f3318b70c47252af64c9fb20b3_7172f9afe53d65886ec96ca26e0af131": {
+    "input_path": "img/resturant.jpg",
+    "output_path": "img/resturant.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.369034",
+    "file_hash": "d95659f3318b70c47252af64c9fb20b3"
+  },
+  "2d8f6d6c55b72134e06c3f2f3278fce9_66c81311bef173f339259ae3a5b6c04d": {
+    "input_path": "img/river-bike-jin.jpg",
+    "output_path": "img/river-bike-jin.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.394407",
+    "file_hash": "2d8f6d6c55b72134e06c3f2f3278fce9"
+  },
+  "0ecf7c1308b9a4fe4631ed2b076c7e03_1c94ceb32c3e6cd3c29dfa318a5497da": {
+    "input_path": "img/slide.jpg",
+    "output_path": "img/slide.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.422363",
+    "file_hash": "0ecf7c1308b9a4fe4631ed2b076c7e03"
+  },
+  "06524cb4a9dd8334496f8b85fb88e92d_bb0065348798e6991c04200da4e58125": {
+    "input_path": "img/slide2.jpg",
+    "output_path": "img/slide2.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.441958",
+    "file_hash": "06524cb4a9dd8334496f8b85fb88e92d"
+  },
+  "616747fb7608137c30bca2b6088abc25_7058b3536aef249133ad1837701f6e45": {
+    "input_path": "img/snoopy-duck.jpg",
+    "output_path": "img/snoopy-duck.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.448421",
+    "file_hash": "616747fb7608137c30bca2b6088abc25"
+  },
+  "d3ae77c3e0c84cb4e5c8af82cebbe4ec_0dbfa537243cb25260ade49e70fb824a": {
+    "input_path": "img/song500.jpeg",
+    "output_path": "img/song500.jpeg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.450127",
+    "file_hash": "d3ae77c3e0c84cb4e5c8af82cebbe4ec"
+  },
+  "8619d50f92babfdabe8d9c1e1326fd17_85d76926eb30a8a027a0faf681bf9074": {
+    "input_path": "img/taiwan-card-new.png",
+    "output_path": "img/taiwan-card-new.png",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.473070",
+    "file_hash": "8619d50f92babfdabe8d9c1e1326fd17"
+  },
+  "c23a3cb6c7456581b8f9a215d7f684d1_117ee07130a23374601e180f503991fe": {
+    "input_path": "img/taiwan-card.jpg",
+    "output_path": "img/taiwan-card.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.478532",
+    "file_hash": "c23a3cb6c7456581b8f9a215d7f684d1"
+  },
+  "a2547cf82fc933ae17441681ae7d94bb_c2aa101e5169f12450ecc9f66972ffdd": {
+    "input_path": "img/wetland-flowers.jpg",
+    "output_path": "img/wetland-flowers.jpg",
+    "quality": 80,
+    "crop_size": null,
+    "processed_time": "2025-07-16T17:25:18.488799",
+    "file_hash": "a2547cf82fc933ae17441681ae7d94bb"
+  },
+  "68df43885b9fd0a2b05748d95ffb56f2_305d49931512697bc901a80dcf6b9ea9": {
+    "input_path": "img/2023-ciff.jpg",
+    "output_path": "img/2023-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:27:59.599015",
+    "file_hash": "68df43885b9fd0a2b05748d95ffb56f2"
+  },
+  "6546d074741782f97d6fda20e5b3b4e1_1d6994453dccf7552cff486d83dc0eda": {
+    "input_path": "img/2024-ciff.jpg",
+    "output_path": "img/2024-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:27:59.633140",
+    "file_hash": "6546d074741782f97d6fda20e5b3b4e1"
+  },
+  "5c9b184c2461d3590029c1b11c01ce18_7a1272c1b2c3bfc01b6cd4fbf8adbaf0": {
+    "input_path": "img/2025-ciff.jpg",
+    "output_path": "img/2025-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:27:59.663793",
+    "file_hash": "5c9b184c2461d3590029c1b11c01ce18"
+  },
+  "ac0a70792b38c2256efac52cd6d56cfe_cb74df4c1faa1612c91e290bb75cd158": {
+    "input_path": "img/497C6339-13.jpg",
+    "output_path": "img/497C6339-13.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:27:59.816834",
+    "file_hash": "ac0a70792b38c2256efac52cd6d56cfe"
+  },
+  "0d92af149329d7c5cf3ed4a595c00321_6416c4045cfa129993cf6d55c0086780": {
+    "input_path": "img/497C6370-19.jpg",
+    "output_path": "img/497C6370-19.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:27:59.977360",
+    "file_hash": "0d92af149329d7c5cf3ed4a595c00321"
+  },
+  "9b56dc488b5d5130ab9882967b0413a2_849f2528f130453ccdf7e85036ffd477": {
+    "input_path": "img/a218.jpg",
+    "output_path": "img/a218.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.007127",
+    "file_hash": "9b56dc488b5d5130ab9882967b0413a2"
+  },
+  "b1f12908d9bbed5be17de5fa4610989b_4abf0b9335a97834526611c0cde5bef0": {
+    "input_path": "img/a238.jpg",
+    "output_path": "img/a238.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.040615",
+    "file_hash": "b1f12908d9bbed5be17de5fa4610989b"
+  },
+  "f7423fe7411be2f08a1c285c00d1ae21_a201204b4b74a52fec4bf058bb426f52": {
+    "input_path": "img/a248.jpg",
+    "output_path": "img/a248.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.062956",
+    "file_hash": "f7423fe7411be2f08a1c285c00d1ae21"
+  },
+  "a2de10215e57dd09297a0036a8826b25_a2c81391966a534d56171dc1791066ea": {
+    "input_path": "img/a258.jpg",
+    "output_path": "img/a258.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.081493",
+    "file_hash": "a2de10215e57dd09297a0036a8826b25"
+  },
+  "3c65cc3a54a418296d76f44eb88ba83b_ee9a9265ca842adcd61b75211a2f5abb": {
+    "input_path": "img/a268.jpg",
+    "output_path": "img/a268.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.104439",
+    "file_hash": "3c65cc3a54a418296d76f44eb88ba83b"
+  },
+  "8a16569dcb58cd80b15bca0968ddc35c_80fb6c30b1b655e8dfe7ca0863232c9b": {
+    "input_path": "img/a288.jpg",
+    "output_path": "img/a288.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.133554",
+    "file_hash": "8a16569dcb58cd80b15bca0968ddc35c"
+  },
+  "2fa1244f5c345fcff9eacab8d4af36a8_f90ea37bee66cdaa580f20640fce23dd": {
+    "input_path": "img/a318.jpg",
+    "output_path": "img/a318.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.155343",
+    "file_hash": "2fa1244f5c345fcff9eacab8d4af36a8"
+  },
+  "e8b2657c16c326481a24f544c061c817_f8b8fb99809e25de6e20adfa2a0a1795": {
+    "input_path": "img/a328.jpg",
+    "output_path": "img/a328.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.179217",
+    "file_hash": "e8b2657c16c326481a24f544c061c817"
+  },
+  "a5554e1d8fff64d0c65fd484eb89abf8_07165245ea4e9b51e09fd8e35b1c621f": {
+    "input_path": "img/a338.jpg",
+    "output_path": "img/a338.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.205624",
+    "file_hash": "a5554e1d8fff64d0c65fd484eb89abf8"
+  },
+  "8c2a6d7c6b446ce827b0470eef78af4b_87c5247b17cc7a6de7b1baff1a95eb1d": {
+    "input_path": "img/a348.jpg",
+    "output_path": "img/a348.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.238327",
+    "file_hash": "8c2a6d7c6b446ce827b0470eef78af4b"
+  },
+  "15b9c0a6daefb12a0aa2f4c4e76b6e08_22eb1efbb35d76df44f12ab2fa1208d2": {
+    "input_path": "img/ab.jpg",
+    "output_path": "img/ab.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.263588",
+    "file_hash": "15b9c0a6daefb12a0aa2f4c4e76b6e08"
+  },
+  "e45bd34d9e4e0cb5bd477acba8981721_a5abd9f3573d517d7f3ff1bd5676f0b5": {
+    "input_path": "img/b1.jpg",
+    "output_path": "img/b1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.293961",
+    "file_hash": "e45bd34d9e4e0cb5bd477acba8981721"
+  },
+  "a4ff6f33c00618b8f3509b9cbb6ba6a4_ca186494757b6881b811d19531a5537f": {
+    "input_path": "img/b2.jpg",
+    "output_path": "img/b2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.330107",
+    "file_hash": "a4ff6f33c00618b8f3509b9cbb6ba6a4"
+  },
+  "528305df3fefd4cef4e9c2300d7801f0_077e3cca5b521ef6aec2a09c453c7bf2": {
+    "input_path": "img/b3.jpg",
+    "output_path": "img/b3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.356173",
+    "file_hash": "528305df3fefd4cef4e9c2300d7801f0"
+  },
+  "abb96e1943d394b6ad6a0942236de1cf_82506ae2a9c3e3e9d1f903d3e9deb1a6": {
+    "input_path": "img/bathroom.jpg",
+    "output_path": "img/bathroom.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.387199",
+    "file_hash": "abb96e1943d394b6ad6a0942236de1cf"
+  },
+  "315c6b6e7fa889399b593dadb36942e9_124f79488d0e8cb3d392861db915d449": {
+    "input_path": "img/bbq.jpg",
+    "output_path": "img/bbq.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.423298",
+    "file_hash": "315c6b6e7fa889399b593dadb36942e9"
+  },
+  "a99c8bd7bbf0cbeae6b5253d24e24f91_23d73a50f103b611cfa6ba62f081e6ab": {
+    "input_path": "img/birthday.jpg",
+    "output_path": "img/birthday.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.464023",
+    "file_hash": "a99c8bd7bbf0cbeae6b5253d24e24f91"
+  },
+  "c540015a231492ad47ab159469f7e5ee_6c48fcddab62859226c8f7cdbbfc2efa": {
+    "input_path": "img/brige.jpg",
+    "output_path": "img/brige.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.490969",
+    "file_hash": "c540015a231492ad47ab159469f7e5ee"
+  },
+  "aa66e57cb305f4f5ccb8ebb39301dd38_865fb9665ac155fd7d406e9943a24f5e": {
+    "input_path": "img/carve.jpg",
+    "output_path": "img/carve.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.516125",
+    "file_hash": "aa66e57cb305f4f5ccb8ebb39301dd38"
+  },
+  "63353bdbc74b8e2278d4e05102a3b127_e7405402924a510548237b0ed1f7a414": {
+    "input_path": "img/good-bnb.png",
+    "output_path": "img/good-bnb.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.540148",
+    "file_hash": "63353bdbc74b8e2278d4e05102a3b127"
+  },
+  "329c97353ee1cd6c25fa6c2d8bd92870_ff7fbd63cd49383944d464c574dc2093": {
+    "input_path": "img/hot-spring.jpg",
+    "output_path": "img/hot-spring.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.572161",
+    "file_hash": "329c97353ee1cd6c25fa6c2d8bd92870"
+  },
+  "4362edb63b2009d45b1422a9d7bfa01c_2654c0af65e6f7bde1b3b7d19b17e8e9": {
+    "input_path": "img/IMG_3538.jpg",
+    "output_path": "img/IMG_3538.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.701778",
+    "file_hash": "4362edb63b2009d45b1422a9d7bfa01c"
+  },
+  "30b58738d41d88cf6331d900b0c271a1_3727ac1ee8b6bac379053738435b6d15": {
+    "input_path": "img/IMG_3540.jpg",
+    "output_path": "img/IMG_3540.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.825403",
+    "file_hash": "30b58738d41d88cf6331d900b0c271a1"
+  },
+  "1438e82aca04a464d9ebda0a4edc6ca9_4ecf52bbb5b5538e5ee91d7c3522141f": {
+    "input_path": "img/IMG_3550.jpg",
+    "output_path": "img/IMG_3550.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:00.965717",
+    "file_hash": "1438e82aca04a464d9ebda0a4edc6ca9"
+  },
+  "e24838887b7efc2c9d80ad6d07f0e502_463815d8eab5e4d915fe2db4671ff1ee": {
+    "input_path": "img/IMG_5544.jpg",
+    "output_path": "img/IMG_5544.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.053781",
+    "file_hash": "e24838887b7efc2c9d80ad6d07f0e502"
+  },
+  "26222dd37b636819f9fe49db6a20b159_ac3518cbd2b992cdedcc114ba018df0e": {
+    "input_path": "img/IMG_6620.jpg",
+    "output_path": "img/IMG_6620.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.140433",
+    "file_hash": "26222dd37b636819f9fe49db6a20b159"
+  },
+  "67394c42e53f137f44147d02c2157413_e4b3ce66ad3a63304820076c76976b08": {
+    "input_path": "img/IMG_6626.jpg",
+    "output_path": "img/IMG_6626.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.211165",
+    "file_hash": "67394c42e53f137f44147d02c2157413"
+  },
+  "556fa279ecd476bbe54c480f91628be1_47b650994bf3c5606997cb322b1a127d": {
+    "input_path": "img/IMG_6635.jpg",
+    "output_path": "img/IMG_6635.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.288255",
+    "file_hash": "556fa279ecd476bbe54c480f91628be1"
+  },
+  "0b2a1402d3e10bb6f7a6de5363af932e_c97532d33ee3476e401507c09aeb8810": {
+    "input_path": "img/IMG_6636.jpg",
+    "output_path": "img/IMG_6636.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.373623",
+    "file_hash": "0b2a1402d3e10bb6f7a6de5363af932e"
+  },
+  "07e7ca04aae6152730c1bff05ac519cb_32b41879266c99d4e9b358944a6ab68a": {
+    "input_path": "img/IMG_6657.jpg",
+    "output_path": "img/IMG_6657.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.449194",
+    "file_hash": "07e7ca04aae6152730c1bff05ac519cb"
+  },
+  "5f98fcd9f0aab86f6544099ee27857dc_eb99697a066f8e5cb4b3e66d525dc2ea": {
+    "input_path": "img/IMG_6671.jpg",
+    "output_path": "img/IMG_6671.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.523844",
+    "file_hash": "5f98fcd9f0aab86f6544099ee27857dc"
+  },
+  "9d5d52bc943c44fbd8047aedd90083dd_7b616834496796db359f7227b4b43368": {
+    "input_path": "img/IMG_7163.jpg",
+    "output_path": "img/IMG_7163.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.613562",
+    "file_hash": "9d5d52bc943c44fbd8047aedd90083dd"
+  },
+  "f881d436e3cad0e29969773d9a106ba2_e3d6d0cfe88cbdc37abfc8fd1b36ea62": {
+    "input_path": "img/living_room.jpg",
+    "output_path": "img/living_room.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.767452",
+    "file_hash": "f881d436e3cad0e29969773d9a106ba2"
+  },
+  "7e1399502780cbc98785a981db8d0310_e7bcd4a90a953dc92f0c3ea87d586ad2": {
+    "input_path": "img/living_room1.jpg",
+    "output_path": "img/living_room1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.807943",
+    "file_hash": "7e1399502780cbc98785a981db8d0310"
+  },
+  "2ef4fdd497e326943f2685bc26e2fde4_e062aeca6f20b02e82de752f4030b752": {
+    "input_path": "img/logo.png",
+    "output_path": "img/logo.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.903807",
+    "file_hash": "2ef4fdd497e326943f2685bc26e2fde4"
+  },
+  "f0d9922a4037bdc24494f044c12addbc_59fcb4c0c920241fbd9fa889d40e79d0": {
+    "input_path": "img/majun.jpg",
+    "output_path": "img/majun.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:01.935799",
+    "file_hash": "f0d9922a4037bdc24494f044c12addbc"
+  },
+  "cf2c8caa581bf40988a336980c9d9062_447b1d6f073b6b994f87ea1cc781dc4a": {
+    "input_path": "img/meet.jpg",
+    "output_path": "img/meet.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.046506",
+    "file_hash": "cf2c8caa581bf40988a336980c9d9062"
+  },
+  "be648b4f04929f67583db606c5af9c1d_3d07a21da39f7e65cd93d3b8aaad68ea": {
+    "input_path": "img/meet1.jpg",
+    "output_path": "img/meet1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.076381",
+    "file_hash": "be648b4f04929f67583db606c5af9c1d"
+  },
+  "3ee139d2f01217347abc212ceb744c26_dd24181a54978645f3d6101edc05e30c": {
+    "input_path": "img/outside-night.jpg",
+    "output_path": "img/outside-night.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.107611",
+    "file_hash": "3ee139d2f01217347abc212ceb744c26"
+  },
+  "79532732c834878016e35028b4c055d2_87354f539e99861808d5e1de778e770b": {
+    "input_path": "img/outside.jpg",
+    "output_path": "img/outside.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.132314",
+    "file_hash": "79532732c834878016e35028b4c055d2"
+  },
+  "1dbc2b3b2457238c195747e7f9400680_bf6355dbdba45c73035b243df2fa4070": {
+    "input_path": "img/pool.jpg",
+    "output_path": "img/pool.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.171244",
+    "file_hash": "1dbc2b3b2457238c195747e7f9400680"
+  },
+  "a851af1b221c57642430fc44fd5bf8db_6a3dfded933cbf4c7d043307fab7e718": {
+    "input_path": "img/pool3.jpg",
+    "output_path": "img/pool3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.199464",
+    "file_hash": "a851af1b221c57642430fc44fd5bf8db"
+  },
+  "a0037c081555fabacc88d193d032b4fd_4bd8e5f108a05db3c101a609b5b1027e": {
+    "input_path": "img/redbean.jpg",
+    "output_path": "img/redbean.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.225677",
+    "file_hash": "a0037c081555fabacc88d193d032b4fd"
+  },
+  "9f04555f78caa99bbcaac82e024599f8_d8ada36c965a751bd5db25e8df911e3b": {
+    "input_path": "img/resturant.jpg",
+    "output_path": "img/resturant.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.256119",
+    "file_hash": "9f04555f78caa99bbcaac82e024599f8"
+  },
+  "56bb75bfaaf590cc667abf6e6144c32c_aeefa3a89ef8b25685b17de206658eea": {
+    "input_path": "img/river-bike-jin.jpg",
+    "output_path": "img/river-bike-jin.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.312052",
+    "file_hash": "56bb75bfaaf590cc667abf6e6144c32c"
+  },
+  "024b1e23473b0c26e5b70fadc1bba3c1_f009105e594a8373d686d652f838850a": {
+    "input_path": "img/slide.jpg",
+    "output_path": "img/slide.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.355538",
+    "file_hash": "024b1e23473b0c26e5b70fadc1bba3c1"
+  },
+  "d0ab2e067f157118919cba46c64d5a6a_75f34a656bae8dfb665b968f69747bc6": {
+    "input_path": "img/slide2.jpg",
+    "output_path": "img/slide2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.395457",
+    "file_hash": "d0ab2e067f157118919cba46c64d5a6a"
+  },
+  "643fee330552114e3966d39f363294dc_ea45c5dc70ad7815e4e7ddd7eda3e03c": {
+    "input_path": "img/snoopy-duck.jpg",
+    "output_path": "img/snoopy-duck.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.428936",
+    "file_hash": "643fee330552114e3966d39f363294dc"
+  },
+  "918f51ee605f9a7edc1d6d55a3dba3bc_d070de17472b0f21565c21ee508440a2": {
+    "input_path": "img/song500.jpeg",
+    "output_path": "img/song500.jpeg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.450582",
+    "file_hash": "918f51ee605f9a7edc1d6d55a3dba3bc"
+  },
+  "89aed787ebc098ea4863a375122b9bef_80ea8dbf9317b7e2bdef2e593c085727": {
+    "input_path": "img/taiwan-card-new.png",
+    "output_path": "img/taiwan-card-new.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.526886",
+    "file_hash": "89aed787ebc098ea4863a375122b9bef"
+  },
+  "1fd96dc28524afbf8be211f50dfc75a8_7417b589459959c865a86b6c22403b09": {
+    "input_path": "img/taiwan-card.jpg",
+    "output_path": "img/taiwan-card.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.553314",
+    "file_hash": "1fd96dc28524afbf8be211f50dfc75a8"
+  },
+  "5f67d40459c1fe9a528d07882e438803_01ed5e744e7662cd8592e888d3673a28": {
+    "input_path": "img/wetland-flowers.jpg",
+    "output_path": "img/wetland-flowers.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:28:02.582483",
+    "file_hash": "5f67d40459c1fe9a528d07882e438803"
+  },
+  "44fa78c4c8de3319bd1cca84af8759c0_2dc5e252421c58fc756a457ad8afa013": {
+    "input_path": "img/logo.png",
+    "output_path": "./test_logo.png",
+    "quality": 85,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:17.573944",
+    "file_hash": "44fa78c4c8de3319bd1cca84af8759c0"
+  },
+  "b8a1c3cc3f452bc8bcfc40acc2236e1d_305d49931512697bc901a80dcf6b9ea9": {
+    "input_path": "img/2023-ciff.jpg",
+    "output_path": "img/2023-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.809448",
+    "file_hash": "b8a1c3cc3f452bc8bcfc40acc2236e1d"
+  },
+  "4b48d982a57388e250558fc1253447d4_1d6994453dccf7552cff486d83dc0eda": {
+    "input_path": "img/2024-ciff.jpg",
+    "output_path": "img/2024-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.822297",
+    "file_hash": "4b48d982a57388e250558fc1253447d4"
+  },
+  "ea5969c8a32a2616c5b25fb7cd258332_7a1272c1b2c3bfc01b6cd4fbf8adbaf0": {
+    "input_path": "img/2025-ciff.jpg",
+    "output_path": "img/2025-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.831232",
+    "file_hash": "ea5969c8a32a2616c5b25fb7cd258332"
+  },
+  "3e68f522351ec17586f1d349ae806f53_cb74df4c1faa1612c91e290bb75cd158": {
+    "input_path": "img/497C6339-13.jpg",
+    "output_path": "img/497C6339-13.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.843834",
+    "file_hash": "3e68f522351ec17586f1d349ae806f53"
+  },
+  "b78385e5b4be867ab16f079d0d060cc1_6416c4045cfa129993cf6d55c0086780": {
+    "input_path": "img/497C6370-19.jpg",
+    "output_path": "img/497C6370-19.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.854605",
+    "file_hash": "b78385e5b4be867ab16f079d0d060cc1"
+  },
+  "86660738312a7dc8166267860481ab43_849f2528f130453ccdf7e85036ffd477": {
+    "input_path": "img/a218.jpg",
+    "output_path": "img/a218.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.864377",
+    "file_hash": "86660738312a7dc8166267860481ab43"
+  },
+  "300f42e9e4a2e7491b344501e676cf6d_4abf0b9335a97834526611c0cde5bef0": {
+    "input_path": "img/a238.jpg",
+    "output_path": "img/a238.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.873604",
+    "file_hash": "300f42e9e4a2e7491b344501e676cf6d"
+  },
+  "940f5f215d57464af11db0680440a41b_a201204b4b74a52fec4bf058bb426f52": {
+    "input_path": "img/a248.jpg",
+    "output_path": "img/a248.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.883119",
+    "file_hash": "940f5f215d57464af11db0680440a41b"
+  },
+  "6cca1e4f3d3404bfa2b7c5701e00bf23_a2c81391966a534d56171dc1791066ea": {
+    "input_path": "img/a258.jpg",
+    "output_path": "img/a258.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.897405",
+    "file_hash": "6cca1e4f3d3404bfa2b7c5701e00bf23"
+  },
+  "7ac03934e42b10bde649bc0252f60d3d_ee9a9265ca842adcd61b75211a2f5abb": {
+    "input_path": "img/a268.jpg",
+    "output_path": "img/a268.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.915135",
+    "file_hash": "7ac03934e42b10bde649bc0252f60d3d"
+  },
+  "b08d832ed5e24cb48dd42970e7037273_80fb6c30b1b655e8dfe7ca0863232c9b": {
+    "input_path": "img/a288.jpg",
+    "output_path": "img/a288.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.932195",
+    "file_hash": "b08d832ed5e24cb48dd42970e7037273"
+  },
+  "7fde9e2ce2e7a7b3161ed4721511cdbe_f90ea37bee66cdaa580f20640fce23dd": {
+    "input_path": "img/a318.jpg",
+    "output_path": "img/a318.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.948622",
+    "file_hash": "7fde9e2ce2e7a7b3161ed4721511cdbe"
+  },
+  "5b0cd4b9f22ca0e1d670c3aae9876a96_f8b8fb99809e25de6e20adfa2a0a1795": {
+    "input_path": "img/a328.jpg",
+    "output_path": "img/a328.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.967170",
+    "file_hash": "5b0cd4b9f22ca0e1d670c3aae9876a96"
+  },
+  "ff739e775cb578f6081b02231b76a4b5_07165245ea4e9b51e09fd8e35b1c621f": {
+    "input_path": "img/a338.jpg",
+    "output_path": "img/a338.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.982387",
+    "file_hash": "ff739e775cb578f6081b02231b76a4b5"
+  },
+  "401edfcdac541ce67cf498c73efe2a86_87c5247b17cc7a6de7b1baff1a95eb1d": {
+    "input_path": "img/a348.jpg",
+    "output_path": "img/a348.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:29.995819",
+    "file_hash": "401edfcdac541ce67cf498c73efe2a86"
+  },
+  "5af25798aa1d491dfce51b592c07baed_22eb1efbb35d76df44f12ab2fa1208d2": {
+    "input_path": "img/ab.jpg",
+    "output_path": "img/ab.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.010964",
+    "file_hash": "5af25798aa1d491dfce51b592c07baed"
+  },
+  "aa9039c5b7520b540c5e4c02633d0677_a5abd9f3573d517d7f3ff1bd5676f0b5": {
+    "input_path": "img/b1.jpg",
+    "output_path": "img/b1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.031858",
+    "file_hash": "aa9039c5b7520b540c5e4c02633d0677"
+  },
+  "55e4d1eea60e082c0e5857dc774db882_ca186494757b6881b811d19531a5537f": {
+    "input_path": "img/b2.jpg",
+    "output_path": "img/b2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.047011",
+    "file_hash": "55e4d1eea60e082c0e5857dc774db882"
+  },
+  "6d5e852153039ca982b02a13cd3f3616_077e3cca5b521ef6aec2a09c453c7bf2": {
+    "input_path": "img/b3.jpg",
+    "output_path": "img/b3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.058861",
+    "file_hash": "6d5e852153039ca982b02a13cd3f3616"
+  },
+  "0df46b99923e913e22ae22a40001e463_82506ae2a9c3e3e9d1f903d3e9deb1a6": {
+    "input_path": "img/bathroom.jpg",
+    "output_path": "img/bathroom.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.067534",
+    "file_hash": "0df46b99923e913e22ae22a40001e463"
+  },
+  "19c5a5d79745be947144423f3a27d861_124f79488d0e8cb3d392861db915d449": {
+    "input_path": "img/bbq.jpg",
+    "output_path": "img/bbq.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.079005",
+    "file_hash": "19c5a5d79745be947144423f3a27d861"
+  },
+  "d97e154017b476efcb348455f9d53f33_23d73a50f103b611cfa6ba62f081e6ab": {
+    "input_path": "img/birthday.jpg",
+    "output_path": "img/birthday.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.094060",
+    "file_hash": "d97e154017b476efcb348455f9d53f33"
+  },
+  "350554ef8851428ca5687bfbfd43a46c_6c48fcddab62859226c8f7cdbbfc2efa": {
+    "input_path": "img/brige.jpg",
+    "output_path": "img/brige.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.107487",
+    "file_hash": "350554ef8851428ca5687bfbfd43a46c"
+  },
+  "babede86f3de26a825ff3f593cc60d28_865fb9665ac155fd7d406e9943a24f5e": {
+    "input_path": "img/carve.jpg",
+    "output_path": "img/carve.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.124909",
+    "file_hash": "babede86f3de26a825ff3f593cc60d28"
+  },
+  "3dad24cb21a19d039511d4643a17d832_e7405402924a510548237b0ed1f7a414": {
+    "input_path": "img/good-bnb.png",
+    "output_path": "img/good-bnb.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.147140",
+    "file_hash": "3dad24cb21a19d039511d4643a17d832"
+  },
+  "97c89fefe0413b0d092a04ad388212eb_ff7fbd63cd49383944d464c574dc2093": {
+    "input_path": "img/hot-spring.jpg",
+    "output_path": "img/hot-spring.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.163775",
+    "file_hash": "97c89fefe0413b0d092a04ad388212eb"
+  },
+  "c7e4d5298102f695f8f8b460c95d3ab8_2654c0af65e6f7bde1b3b7d19b17e8e9": {
+    "input_path": "img/IMG_3538.jpg",
+    "output_path": "img/IMG_3538.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.180185",
+    "file_hash": "c7e4d5298102f695f8f8b460c95d3ab8"
+  },
+  "6a26fe35f30a75be14052165ef1de52c_3727ac1ee8b6bac379053738435b6d15": {
+    "input_path": "img/IMG_3540.jpg",
+    "output_path": "img/IMG_3540.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.198258",
+    "file_hash": "6a26fe35f30a75be14052165ef1de52c"
+  },
+  "7d067689b4f56b5726db363307c249ee_4ecf52bbb5b5538e5ee91d7c3522141f": {
+    "input_path": "img/IMG_3550.jpg",
+    "output_path": "img/IMG_3550.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.222641",
+    "file_hash": "7d067689b4f56b5726db363307c249ee"
+  },
+  "fdbe5244c1ed4abda42f35cc8b4bb5e3_463815d8eab5e4d915fe2db4671ff1ee": {
+    "input_path": "img/IMG_5544.jpg",
+    "output_path": "img/IMG_5544.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.238692",
+    "file_hash": "fdbe5244c1ed4abda42f35cc8b4bb5e3"
+  },
+  "5be0b674a88a585886c2c48bd0353e26_ac3518cbd2b992cdedcc114ba018df0e": {
+    "input_path": "img/IMG_6620.jpg",
+    "output_path": "img/IMG_6620.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.256162",
+    "file_hash": "5be0b674a88a585886c2c48bd0353e26"
+  },
+  "79b80ea0a5a0dc943164a950f2d1b250_e4b3ce66ad3a63304820076c76976b08": {
+    "input_path": "img/IMG_6626.jpg",
+    "output_path": "img/IMG_6626.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.272634",
+    "file_hash": "79b80ea0a5a0dc943164a950f2d1b250"
+  },
+  "723a92a0696985dc8f0397ba31c97921_47b650994bf3c5606997cb322b1a127d": {
+    "input_path": "img/IMG_6635.jpg",
+    "output_path": "img/IMG_6635.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.287345",
+    "file_hash": "723a92a0696985dc8f0397ba31c97921"
+  },
+  "714fa8795cb8b1380560b08787cf79b5_c97532d33ee3476e401507c09aeb8810": {
+    "input_path": "img/IMG_6636.jpg",
+    "output_path": "img/IMG_6636.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.306260",
+    "file_hash": "714fa8795cb8b1380560b08787cf79b5"
+  },
+  "a0960285f02feb70b3470c87cf0efdcb_32b41879266c99d4e9b358944a6ab68a": {
+    "input_path": "img/IMG_6657.jpg",
+    "output_path": "img/IMG_6657.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.323100",
+    "file_hash": "a0960285f02feb70b3470c87cf0efdcb"
+  },
+  "f33090a9186eeba1de742b3af3568057_eb99697a066f8e5cb4b3e66d525dc2ea": {
+    "input_path": "img/IMG_6671.jpg",
+    "output_path": "img/IMG_6671.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.339347",
+    "file_hash": "f33090a9186eeba1de742b3af3568057"
+  },
+  "f32769fad69a926368b26e930337b20c_7b616834496796db359f7227b4b43368": {
+    "input_path": "img/IMG_7163.jpg",
+    "output_path": "img/IMG_7163.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.355042",
+    "file_hash": "f32769fad69a926368b26e930337b20c"
+  },
+  "aec2e3b5db1c1d36677b8484c32a571d_e3d6d0cfe88cbdc37abfc8fd1b36ea62": {
+    "input_path": "img/living_room.jpg",
+    "output_path": "img/living_room.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.372684",
+    "file_hash": "aec2e3b5db1c1d36677b8484c32a571d"
+  },
+  "31171e3907905564e0b36cd45f1b9d54_e7bcd4a90a953dc92f0c3ea87d586ad2": {
+    "input_path": "img/living_room1.jpg",
+    "output_path": "img/living_room1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.386605",
+    "file_hash": "31171e3907905564e0b36cd45f1b9d54"
+  },
+  "44fa78c4c8de3319bd1cca84af8759c0_e062aeca6f20b02e82de752f4030b752": {
+    "input_path": "img/logo.png",
+    "output_path": "img/logo.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.451539",
+    "file_hash": "44fa78c4c8de3319bd1cca84af8759c0"
+  },
+  "0e25a2d1965af561b9d88625753678c4_59fcb4c0c920241fbd9fa889d40e79d0": {
+    "input_path": "img/majun.jpg",
+    "output_path": "img/majun.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.464008",
+    "file_hash": "0e25a2d1965af561b9d88625753678c4"
+  },
+  "f71a2c73575c857825547dd4a647aacb_447b1d6f073b6b994f87ea1cc781dc4a": {
+    "input_path": "img/meet.jpg",
+    "output_path": "img/meet.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.480275",
+    "file_hash": "f71a2c73575c857825547dd4a647aacb"
+  },
+  "3b04ee9162bae8e292fcb3079011ff12_3d07a21da39f7e65cd93d3b8aaad68ea": {
+    "input_path": "img/meet1.jpg",
+    "output_path": "img/meet1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.495981",
+    "file_hash": "3b04ee9162bae8e292fcb3079011ff12"
+  },
+  "60ce49730506c6d849c43003065a889c_dd24181a54978645f3d6101edc05e30c": {
+    "input_path": "img/outside-night.jpg",
+    "output_path": "img/outside-night.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.519597",
+    "file_hash": "60ce49730506c6d849c43003065a889c"
+  },
+  "e07f0b29a1a4949d4cefcae7f06611b3_87354f539e99861808d5e1de778e770b": {
+    "input_path": "img/outside.jpg",
+    "output_path": "img/outside.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.538342",
+    "file_hash": "e07f0b29a1a4949d4cefcae7f06611b3"
+  },
+  "6e57da5d9b6effbe2262037fd6f3c06f_bf6355dbdba45c73035b243df2fa4070": {
+    "input_path": "img/pool.jpg",
+    "output_path": "img/pool.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.555175",
+    "file_hash": "6e57da5d9b6effbe2262037fd6f3c06f"
+  },
+  "c82f7174a8d6ac1f2b3a0eb0f9bc51a9_6a3dfded933cbf4c7d043307fab7e718": {
+    "input_path": "img/pool3.jpg",
+    "output_path": "img/pool3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.571404",
+    "file_hash": "c82f7174a8d6ac1f2b3a0eb0f9bc51a9"
+  },
+  "f1bb4991309cbaa8377fe86cdfcc217b_4bd8e5f108a05db3c101a609b5b1027e": {
+    "input_path": "img/redbean.jpg",
+    "output_path": "img/redbean.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.584969",
+    "file_hash": "f1bb4991309cbaa8377fe86cdfcc217b"
+  },
+  "4190f058ddd7e6d34cc733b8ac1db456_d8ada36c965a751bd5db25e8df911e3b": {
+    "input_path": "img/resturant.jpg",
+    "output_path": "img/resturant.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.597780",
+    "file_hash": "4190f058ddd7e6d34cc733b8ac1db456"
+  },
+  "bc08f3c81681977e7634ab3984716d32_aeefa3a89ef8b25685b17de206658eea": {
+    "input_path": "img/river-bike-jin.jpg",
+    "output_path": "img/river-bike-jin.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.614582",
+    "file_hash": "bc08f3c81681977e7634ab3984716d32"
+  },
+  "019a835afabb42c2f1290f08b50aac96_f009105e594a8373d686d652f838850a": {
+    "input_path": "img/slide.jpg",
+    "output_path": "img/slide.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.628480",
+    "file_hash": "019a835afabb42c2f1290f08b50aac96"
+  },
+  "0be1c68e750c3495ce8ea188931e08ab_75f34a656bae8dfb665b968f69747bc6": {
+    "input_path": "img/slide2.jpg",
+    "output_path": "img/slide2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.645749",
+    "file_hash": "0be1c68e750c3495ce8ea188931e08ab"
+  },
+  "567551b8d05e4ec5b660391b517b3f8e_ea45c5dc70ad7815e4e7ddd7eda3e03c": {
+    "input_path": "img/snoopy-duck.jpg",
+    "output_path": "img/snoopy-duck.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.659417",
+    "file_hash": "567551b8d05e4ec5b660391b517b3f8e"
+  },
+  "2cd6ebeab771d8282be0c6ee34b8876d_d070de17472b0f21565c21ee508440a2": {
+    "input_path": "img/song500.jpeg",
+    "output_path": "img/song500.jpeg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.672080",
+    "file_hash": "2cd6ebeab771d8282be0c6ee34b8876d"
+  },
+  "80162b1551682edce24d3529961add12_80ea8dbf9317b7e2bdef2e593c085727": {
+    "input_path": "img/taiwan-card-new.png",
+    "output_path": "img/taiwan-card-new.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.739466",
+    "file_hash": "80162b1551682edce24d3529961add12"
+  },
+  "b6fd3a615b8f6d9c45567b3066554fd8_7417b589459959c865a86b6c22403b09": {
+    "input_path": "img/taiwan-card.jpg",
+    "output_path": "img/taiwan-card.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.754843",
+    "file_hash": "b6fd3a615b8f6d9c45567b3066554fd8"
+  },
+  "782b8444ff68b444e505f15bb063b995_01ed5e744e7662cd8592e888d3673a28": {
+    "input_path": "img/wetland-flowers.jpg",
+    "output_path": "img/wetland-flowers.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:32:30.778558",
+    "file_hash": "782b8444ff68b444e505f15bb063b995"
+  },
+  "323d52b686920cb900fb1d6f4fa7c594_305d49931512697bc901a80dcf6b9ea9": {
+    "input_path": "img/2023-ciff.jpg",
+    "output_path": "img/2023-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.478285",
+    "file_hash": "323d52b686920cb900fb1d6f4fa7c594"
+  },
+  "cbc0aaedc59062c571af6e7eee846fa8_1d6994453dccf7552cff486d83dc0eda": {
+    "input_path": "img/2024-ciff.jpg",
+    "output_path": "img/2024-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.489119",
+    "file_hash": "cbc0aaedc59062c571af6e7eee846fa8"
+  },
+  "10d28cbaa06f00386ffb87babc414353_7a1272c1b2c3bfc01b6cd4fbf8adbaf0": {
+    "input_path": "img/2025-ciff.jpg",
+    "output_path": "img/2025-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.495101",
+    "file_hash": "10d28cbaa06f00386ffb87babc414353"
+  },
+  "a483865182481f53d3b473445b228868_cb74df4c1faa1612c91e290bb75cd158": {
+    "input_path": "img/497C6339-13.jpg",
+    "output_path": "img/497C6339-13.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.688350",
+    "file_hash": "a483865182481f53d3b473445b228868"
+  },
+  "648da3a68468da7eb5859235f6e3c378_6416c4045cfa129993cf6d55c0086780": {
+    "input_path": "img/497C6370-19.jpg",
+    "output_path": "img/497C6370-19.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.886733",
+    "file_hash": "648da3a68468da7eb5859235f6e3c378"
+  },
+  "c89f0b6fdfdca7ac23f160485d7e9581_849f2528f130453ccdf7e85036ffd477": {
+    "input_path": "img/a218.jpg",
+    "output_path": "img/a218.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.895882",
+    "file_hash": "c89f0b6fdfdca7ac23f160485d7e9581"
+  },
+  "cc76a6c593809763b930399dc4287208_4abf0b9335a97834526611c0cde5bef0": {
+    "input_path": "img/a238.jpg",
+    "output_path": "img/a238.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.904569",
+    "file_hash": "cc76a6c593809763b930399dc4287208"
+  },
+  "39dd11187def5493e6847f1df5bb1b8c_a201204b4b74a52fec4bf058bb426f52": {
+    "input_path": "img/a248.jpg",
+    "output_path": "img/a248.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.913214",
+    "file_hash": "39dd11187def5493e6847f1df5bb1b8c"
+  },
+  "d659be59f2f0433a59d50843b565fbdd_a2c81391966a534d56171dc1791066ea": {
+    "input_path": "img/a258.jpg",
+    "output_path": "img/a258.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.921909",
+    "file_hash": "d659be59f2f0433a59d50843b565fbdd"
+  },
+  "a95023a037f580641c509ae023a13d5a_ee9a9265ca842adcd61b75211a2f5abb": {
+    "input_path": "img/a268.jpg",
+    "output_path": "img/a268.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.931304",
+    "file_hash": "a95023a037f580641c509ae023a13d5a"
+  },
+  "d8db6fa904f752fed6d5d9fa29c083c5_80fb6c30b1b655e8dfe7ca0863232c9b": {
+    "input_path": "img/a288.jpg",
+    "output_path": "img/a288.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.940154",
+    "file_hash": "d8db6fa904f752fed6d5d9fa29c083c5"
+  },
+  "142553d533d6e7531c5a35ef63b4a3f4_f90ea37bee66cdaa580f20640fce23dd": {
+    "input_path": "img/a318.jpg",
+    "output_path": "img/a318.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.948377",
+    "file_hash": "142553d533d6e7531c5a35ef63b4a3f4"
+  },
+  "300d86def84225b4b00b4a3bf18a587d_f8b8fb99809e25de6e20adfa2a0a1795": {
+    "input_path": "img/a328.jpg",
+    "output_path": "img/a328.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.957709",
+    "file_hash": "300d86def84225b4b00b4a3bf18a587d"
+  },
+  "1511351b1a01eb0740480eb1a5425def_07165245ea4e9b51e09fd8e35b1c621f": {
+    "input_path": "img/a338.jpg",
+    "output_path": "img/a338.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.967502",
+    "file_hash": "1511351b1a01eb0740480eb1a5425def"
+  },
+  "6db273caad3f5297307ec17e8828adef_87c5247b17cc7a6de7b1baff1a95eb1d": {
+    "input_path": "img/a348.jpg",
+    "output_path": "img/a348.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.976218",
+    "file_hash": "6db273caad3f5297307ec17e8828adef"
+  },
+  "efe5efdcaed4946c7f4ad9722c3d2744_22eb1efbb35d76df44f12ab2fa1208d2": {
+    "input_path": "img/ab.jpg",
+    "output_path": "img/ab.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.985736",
+    "file_hash": "efe5efdcaed4946c7f4ad9722c3d2744"
+  },
+  "a0cdd2eb97933259c33ce7dca4ddf8dd_a5abd9f3573d517d7f3ff1bd5676f0b5": {
+    "input_path": "img/b1.jpg",
+    "output_path": "img/b1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:33.995562",
+    "file_hash": "a0cdd2eb97933259c33ce7dca4ddf8dd"
+  },
+  "15f0966ed912b812a63121323311a912_ca186494757b6881b811d19531a5537f": {
+    "input_path": "img/b2.jpg",
+    "output_path": "img/b2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.005087",
+    "file_hash": "15f0966ed912b812a63121323311a912"
+  },
+  "29485554908749dbf0528b077e7c79e4_077e3cca5b521ef6aec2a09c453c7bf2": {
+    "input_path": "img/b3.jpg",
+    "output_path": "img/b3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.014095",
+    "file_hash": "29485554908749dbf0528b077e7c79e4"
+  },
+  "f015b9eee208be4b110e55ecc1e517e6_82506ae2a9c3e3e9d1f903d3e9deb1a6": {
+    "input_path": "img/bathroom.jpg",
+    "output_path": "img/bathroom.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.038644",
+    "file_hash": "f015b9eee208be4b110e55ecc1e517e6"
+  },
+  "128a90ffe5caf8f9c4a51ce38bb63664_124f79488d0e8cb3d392861db915d449": {
+    "input_path": "img/bbq.jpg",
+    "output_path": "img/bbq.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.049792",
+    "file_hash": "128a90ffe5caf8f9c4a51ce38bb63664"
+  },
+  "96610a6ba8e7d6c3814a90585908ebcd_23d73a50f103b611cfa6ba62f081e6ab": {
+    "input_path": "img/birthday.jpg",
+    "output_path": "img/birthday.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.060807",
+    "file_hash": "96610a6ba8e7d6c3814a90585908ebcd"
+  },
+  "217284e86a9f45786c4956bd4d88ca40_6c48fcddab62859226c8f7cdbbfc2efa": {
+    "input_path": "img/brige.jpg",
+    "output_path": "img/brige.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.069416",
+    "file_hash": "217284e86a9f45786c4956bd4d88ca40"
+  },
+  "74786d02e50e092128dd40d9b215d24a_865fb9665ac155fd7d406e9943a24f5e": {
+    "input_path": "img/carve.jpg",
+    "output_path": "img/carve.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.079384",
+    "file_hash": "74786d02e50e092128dd40d9b215d24a"
+  },
+  "d10b28c474396ffffe00047ef54b3541_e7405402924a510548237b0ed1f7a414": {
+    "input_path": "img/good-bnb.png",
+    "output_path": "img/good-bnb.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.085798",
+    "file_hash": "d10b28c474396ffffe00047ef54b3541"
+  },
+  "41fbc7778f0c3ba59d5e616a9624464f_ff7fbd63cd49383944d464c574dc2093": {
+    "input_path": "img/hot-spring.jpg",
+    "output_path": "img/hot-spring.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.116237",
+    "file_hash": "41fbc7778f0c3ba59d5e616a9624464f"
+  },
+  "0b40d4555032bfdbb8787dcbb7d414ef_2654c0af65e6f7bde1b3b7d19b17e8e9": {
+    "input_path": "img/IMG_3538.jpg",
+    "output_path": "img/IMG_3538.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.301586",
+    "file_hash": "0b40d4555032bfdbb8787dcbb7d414ef"
+  },
+  "d004198446129722219ab348c86cb71a_3727ac1ee8b6bac379053738435b6d15": {
+    "input_path": "img/IMG_3540.jpg",
+    "output_path": "img/IMG_3540.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.480314",
+    "file_hash": "d004198446129722219ab348c86cb71a"
+  },
+  "7024064f0f7aae4926288988b759e97b_4ecf52bbb5b5538e5ee91d7c3522141f": {
+    "input_path": "img/IMG_3550.jpg",
+    "output_path": "img/IMG_3550.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.664237",
+    "file_hash": "7024064f0f7aae4926288988b759e97b"
+  },
+  "e7a21187f245bd12adab8327743889bb_463815d8eab5e4d915fe2db4671ff1ee": {
+    "input_path": "img/IMG_5544.jpg",
+    "output_path": "img/IMG_5544.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.781901",
+    "file_hash": "e7a21187f245bd12adab8327743889bb"
+  },
+  "10e5684e2054e7cfeee693818192d84c_ac3518cbd2b992cdedcc114ba018df0e": {
+    "input_path": "img/IMG_6620.jpg",
+    "output_path": "img/IMG_6620.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.883655",
+    "file_hash": "10e5684e2054e7cfeee693818192d84c"
+  },
+  "64770c512934feeecb87674e747f6a76_e4b3ce66ad3a63304820076c76976b08": {
+    "input_path": "img/IMG_6626.jpg",
+    "output_path": "img/IMG_6626.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:34.994135",
+    "file_hash": "64770c512934feeecb87674e747f6a76"
+  },
+  "fd1a882c91ae03c108af325c7203ca60_47b650994bf3c5606997cb322b1a127d": {
+    "input_path": "img/IMG_6635.jpg",
+    "output_path": "img/IMG_6635.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.093681",
+    "file_hash": "fd1a882c91ae03c108af325c7203ca60"
+  },
+  "8a34ac96200f3f6fdfc2e3b27898cb39_c97532d33ee3476e401507c09aeb8810": {
+    "input_path": "img/IMG_6636.jpg",
+    "output_path": "img/IMG_6636.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.192129",
+    "file_hash": "8a34ac96200f3f6fdfc2e3b27898cb39"
+  },
+  "8570b673352027d7f1c0825c122539f3_32b41879266c99d4e9b358944a6ab68a": {
+    "input_path": "img/IMG_6657.jpg",
+    "output_path": "img/IMG_6657.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.281852",
+    "file_hash": "8570b673352027d7f1c0825c122539f3"
+  },
+  "8cfa253eb11e4badb4af33780df64198_eb99697a066f8e5cb4b3e66d525dc2ea": {
+    "input_path": "img/IMG_6671.jpg",
+    "output_path": "img/IMG_6671.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.369476",
+    "file_hash": "8cfa253eb11e4badb4af33780df64198"
+  },
+  "4cc067aeb5abe9c6f8196554d66209a7_7b616834496796db359f7227b4b43368": {
+    "input_path": "img/IMG_7163.jpg",
+    "output_path": "img/IMG_7163.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.474520",
+    "file_hash": "4cc067aeb5abe9c6f8196554d66209a7"
+  },
+  "e8cd4455142270bb4793262dfd3734a7_e3d6d0cfe88cbdc37abfc8fd1b36ea62": {
+    "input_path": "img/living_room.jpg",
+    "output_path": "img/living_room.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.667943",
+    "file_hash": "e8cd4455142270bb4793262dfd3734a7"
+  },
+  "cbb894b43e164bfbb90630e4932ec2ab_e7bcd4a90a953dc92f0c3ea87d586ad2": {
+    "input_path": "img/living_room1.jpg",
+    "output_path": "img/living_room1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.691201",
+    "file_hash": "cbb894b43e164bfbb90630e4932ec2ab"
+  },
+  "e5dca6bbe8b8a7a40250387022fe08fb_59fcb4c0c920241fbd9fa889d40e79d0": {
+    "input_path": "img/majun.jpg",
+    "output_path": "img/majun.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.712485",
+    "file_hash": "e5dca6bbe8b8a7a40250387022fe08fb"
+  },
+  "405fec51dd0eefe7824971956baa64c5_447b1d6f073b6b994f87ea1cc781dc4a": {
+    "input_path": "img/meet.jpg",
+    "output_path": "img/meet.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.847442",
+    "file_hash": "405fec51dd0eefe7824971956baa64c5"
+  },
+  "c0bd89866a7e4e65851c7f7e864766ef_3d07a21da39f7e65cd93d3b8aaad68ea": {
+    "input_path": "img/meet1.jpg",
+    "output_path": "img/meet1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.859036",
+    "file_hash": "c0bd89866a7e4e65851c7f7e864766ef"
+  },
+  "f7e804a482b1989e5160f04b66e244c5_dd24181a54978645f3d6101edc05e30c": {
+    "input_path": "img/outside-night.jpg",
+    "output_path": "img/outside-night.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.870564",
+    "file_hash": "f7e804a482b1989e5160f04b66e244c5"
+  },
+  "dd38085e7b0ca594594389f27b041f75_87354f539e99861808d5e1de778e770b": {
+    "input_path": "img/outside.jpg",
+    "output_path": "img/outside.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.884971",
+    "file_hash": "dd38085e7b0ca594594389f27b041f75"
+  },
+  "b88270c753c09e4f02345741ebab9e20_bf6355dbdba45c73035b243df2fa4070": {
+    "input_path": "img/pool.jpg",
+    "output_path": "img/pool.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.916401",
+    "file_hash": "b88270c753c09e4f02345741ebab9e20"
+  },
+  "14b8499df6ec6c817fb27c8b29abafa3_6a3dfded933cbf4c7d043307fab7e718": {
+    "input_path": "img/pool3.jpg",
+    "output_path": "img/pool3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.930294",
+    "file_hash": "14b8499df6ec6c817fb27c8b29abafa3"
+  },
+  "7b68530760b3bc3909ed37a7753fdddb_4bd8e5f108a05db3c101a609b5b1027e": {
+    "input_path": "img/redbean.jpg",
+    "output_path": "img/redbean.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.938954",
+    "file_hash": "7b68530760b3bc3909ed37a7753fdddb"
+  },
+  "d95659f3318b70c47252af64c9fb20b3_d8ada36c965a751bd5db25e8df911e3b": {
+    "input_path": "img/resturant.jpg",
+    "output_path": "img/resturant.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.951957",
+    "file_hash": "d95659f3318b70c47252af64c9fb20b3"
+  },
+  "2d8f6d6c55b72134e06c3f2f3278fce9_aeefa3a89ef8b25685b17de206658eea": {
+    "input_path": "img/river-bike-jin.jpg",
+    "output_path": "img/river-bike-jin.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:35.988426",
+    "file_hash": "2d8f6d6c55b72134e06c3f2f3278fce9"
+  },
+  "0ecf7c1308b9a4fe4631ed2b076c7e03_f009105e594a8373d686d652f838850a": {
+    "input_path": "img/slide.jpg",
+    "output_path": "img/slide.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:36.010826",
+    "file_hash": "0ecf7c1308b9a4fe4631ed2b076c7e03"
+  },
+  "06524cb4a9dd8334496f8b85fb88e92d_75f34a656bae8dfb665b968f69747bc6": {
+    "input_path": "img/slide2.jpg",
+    "output_path": "img/slide2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:36.040003",
+    "file_hash": "06524cb4a9dd8334496f8b85fb88e92d"
+  },
+  "616747fb7608137c30bca2b6088abc25_ea45c5dc70ad7815e4e7ddd7eda3e03c": {
+    "input_path": "img/snoopy-duck.jpg",
+    "output_path": "img/snoopy-duck.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:36.046829",
+    "file_hash": "616747fb7608137c30bca2b6088abc25"
+  },
+  "d3ae77c3e0c84cb4e5c8af82cebbe4ec_d070de17472b0f21565c21ee508440a2": {
+    "input_path": "img/song500.jpeg",
+    "output_path": "img/song500.jpeg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:36.049370",
+    "file_hash": "d3ae77c3e0c84cb4e5c8af82cebbe4ec"
+  },
+  "8619d50f92babfdabe8d9c1e1326fd17_80ea8dbf9317b7e2bdef2e593c085727": {
+    "input_path": "img/taiwan-card-new.png",
+    "output_path": "img/taiwan-card-new.png",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:36.068084",
+    "file_hash": "8619d50f92babfdabe8d9c1e1326fd17"
+  },
+  "c23a3cb6c7456581b8f9a215d7f684d1_7417b589459959c865a86b6c22403b09": {
+    "input_path": "img/taiwan-card.jpg",
+    "output_path": "img/taiwan-card.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:36.074714",
+    "file_hash": "c23a3cb6c7456581b8f9a215d7f684d1"
+  },
+  "a2547cf82fc933ae17441681ae7d94bb_01ed5e744e7662cd8592e888d3673a28": {
+    "input_path": "img/wetland-flowers.jpg",
+    "output_path": "img/wetland-flowers.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:38:36.091420",
+    "file_hash": "a2547cf82fc933ae17441681ae7d94bb"
+  },
+  "897271018b3a0214b3e13fbf8c4e1d10_305d49931512697bc901a80dcf6b9ea9": {
+    "input_path": "img/2023-ciff.jpg",
+    "output_path": "img/2023-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.402947",
+    "file_hash": "897271018b3a0214b3e13fbf8c4e1d10"
+  },
+  "fff59f4ca94968537db4d53040de4507_1d6994453dccf7552cff486d83dc0eda": {
+    "input_path": "img/2024-ciff.jpg",
+    "output_path": "img/2024-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.414092",
+    "file_hash": "fff59f4ca94968537db4d53040de4507"
+  },
+  "3df6dfb88b587cda40e014dc54afdb8d_7a1272c1b2c3bfc01b6cd4fbf8adbaf0": {
+    "input_path": "img/2025-ciff.jpg",
+    "output_path": "img/2025-ciff.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.422818",
+    "file_hash": "3df6dfb88b587cda40e014dc54afdb8d"
+  },
+  "ea004c9d4b0552b36d27c08278e9f1dd_cb74df4c1faa1612c91e290bb75cd158": {
+    "input_path": "img/497C6339-13.jpg",
+    "output_path": "img/497C6339-13.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.437334",
+    "file_hash": "ea004c9d4b0552b36d27c08278e9f1dd"
+  },
+  "9707f36b3cecf362925b19c112aff39e_6416c4045cfa129993cf6d55c0086780": {
+    "input_path": "img/497C6370-19.jpg",
+    "output_path": "img/497C6370-19.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.452680",
+    "file_hash": "9707f36b3cecf362925b19c112aff39e"
+  },
+  "736085d712594324caf8bbd187bd5ca5_849f2528f130453ccdf7e85036ffd477": {
+    "input_path": "img/a218.jpg",
+    "output_path": "img/a218.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.465859",
+    "file_hash": "736085d712594324caf8bbd187bd5ca5"
+  },
+  "9a3a8d018f97d686ca803c6af2019613_4abf0b9335a97834526611c0cde5bef0": {
+    "input_path": "img/a238.jpg",
+    "output_path": "img/a238.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.478988",
+    "file_hash": "9a3a8d018f97d686ca803c6af2019613"
+  },
+  "3758f06c6c1ea4c2ee0117d56ab50a21_a201204b4b74a52fec4bf058bb426f52": {
+    "input_path": "img/a248.jpg",
+    "output_path": "img/a248.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.493715",
+    "file_hash": "3758f06c6c1ea4c2ee0117d56ab50a21"
+  },
+  "33704066eea2b4e5da65cd0cff9cd8cc_a2c81391966a534d56171dc1791066ea": {
+    "input_path": "img/a258.jpg",
+    "output_path": "img/a258.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.507171",
+    "file_hash": "33704066eea2b4e5da65cd0cff9cd8cc"
+  },
+  "f87e9e23f4ffa97bc7122beb1802d8f2_ee9a9265ca842adcd61b75211a2f5abb": {
+    "input_path": "img/a268.jpg",
+    "output_path": "img/a268.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.521313",
+    "file_hash": "f87e9e23f4ffa97bc7122beb1802d8f2"
+  },
+  "c97b888c795505f44f940f851a4a6bb0_80fb6c30b1b655e8dfe7ca0863232c9b": {
+    "input_path": "img/a288.jpg",
+    "output_path": "img/a288.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.533685",
+    "file_hash": "c97b888c795505f44f940f851a4a6bb0"
+  },
+  "5be6eaf5b5ea97489fc35deeb5c6c428_f90ea37bee66cdaa580f20640fce23dd": {
+    "input_path": "img/a318.jpg",
+    "output_path": "img/a318.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.547533",
+    "file_hash": "5be6eaf5b5ea97489fc35deeb5c6c428"
+  },
+  "eef1374441b75fc87cb31ada4ec41fbf_f8b8fb99809e25de6e20adfa2a0a1795": {
+    "input_path": "img/a328.jpg",
+    "output_path": "img/a328.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.565575",
+    "file_hash": "eef1374441b75fc87cb31ada4ec41fbf"
+  },
+  "8e4b150dcc365e71c935000a83015f66_07165245ea4e9b51e09fd8e35b1c621f": {
+    "input_path": "img/a338.jpg",
+    "output_path": "img/a338.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.579092",
+    "file_hash": "8e4b150dcc365e71c935000a83015f66"
+  },
+  "662689186c63b21ca3c2530e755f1f17_87c5247b17cc7a6de7b1baff1a95eb1d": {
+    "input_path": "img/a348.jpg",
+    "output_path": "img/a348.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.597534",
+    "file_hash": "662689186c63b21ca3c2530e755f1f17"
+  },
+  "e33565fa842237b859dbe9326378a4c6_22eb1efbb35d76df44f12ab2fa1208d2": {
+    "input_path": "img/ab.jpg",
+    "output_path": "img/ab.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.614631",
+    "file_hash": "e33565fa842237b859dbe9326378a4c6"
+  },
+  "992bf98240ee2f023f5ed15e77aace91_a5abd9f3573d517d7f3ff1bd5676f0b5": {
+    "input_path": "img/b1.jpg",
+    "output_path": "img/b1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.630869",
+    "file_hash": "992bf98240ee2f023f5ed15e77aace91"
+  },
+  "be97d26349fd8e1365aaeeeada2e87d5_ca186494757b6881b811d19531a5537f": {
+    "input_path": "img/b2.jpg",
+    "output_path": "img/b2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.651588",
+    "file_hash": "be97d26349fd8e1365aaeeeada2e87d5"
+  },
+  "85b0ac6a22ef05a6496e43f7c8b3b0ec_077e3cca5b521ef6aec2a09c453c7bf2": {
+    "input_path": "img/b3.jpg",
+    "output_path": "img/b3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.668297",
+    "file_hash": "85b0ac6a22ef05a6496e43f7c8b3b0ec"
+  },
+  "90404625bea9f1a24a06660e4b9d9084_82506ae2a9c3e3e9d1f903d3e9deb1a6": {
+    "input_path": "img/bathroom.jpg",
+    "output_path": "img/bathroom.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.674651",
+    "file_hash": "90404625bea9f1a24a06660e4b9d9084"
+  },
+  "36d30535fb5ffd150b61ebeb28607169_124f79488d0e8cb3d392861db915d449": {
+    "input_path": "img/bbq.jpg",
+    "output_path": "img/bbq.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.689838",
+    "file_hash": "36d30535fb5ffd150b61ebeb28607169"
+  },
+  "069b19d0b7d23b342bef64bc8e314b12_23d73a50f103b611cfa6ba62f081e6ab": {
+    "input_path": "img/birthday.jpg",
+    "output_path": "img/birthday.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.705337",
+    "file_hash": "069b19d0b7d23b342bef64bc8e314b12"
+  },
+  "9fb768a00dbc1816b16e7f8db98963c1_6c48fcddab62859226c8f7cdbbfc2efa": {
+    "input_path": "img/brige.jpg",
+    "output_path": "img/brige.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.718579",
+    "file_hash": "9fb768a00dbc1816b16e7f8db98963c1"
+  },
+  "3688f2f8e97710cbd15522858e5c1959_865fb9665ac155fd7d406e9943a24f5e": {
+    "input_path": "img/carve.jpg",
+    "output_path": "img/carve.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.732880",
+    "file_hash": "3688f2f8e97710cbd15522858e5c1959"
+  },
+  "0049d7bfaed880438b4e6799e40c30b3_ff7fbd63cd49383944d464c574dc2093": {
+    "input_path": "img/hot-spring.jpg",
+    "output_path": "img/hot-spring.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.748904",
+    "file_hash": "0049d7bfaed880438b4e6799e40c30b3"
+  },
+  "94e3193e960035f8e746f69321e97dde_2654c0af65e6f7bde1b3b7d19b17e8e9": {
+    "input_path": "img/IMG_3538.jpg",
+    "output_path": "img/IMG_3538.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.771188",
+    "file_hash": "94e3193e960035f8e746f69321e97dde"
+  },
+  "eb417abf31a710dc2b767432d63cfd66_3727ac1ee8b6bac379053738435b6d15": {
+    "input_path": "img/IMG_3540.jpg",
+    "output_path": "img/IMG_3540.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.792570",
+    "file_hash": "eb417abf31a710dc2b767432d63cfd66"
+  },
+  "874b4d2057dfe60ed20844170a611944_4ecf52bbb5b5538e5ee91d7c3522141f": {
+    "input_path": "img/IMG_3550.jpg",
+    "output_path": "img/IMG_3550.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.813463",
+    "file_hash": "874b4d2057dfe60ed20844170a611944"
+  },
+  "28421fd79b42ab03a97d566c3c4f4fc5_463815d8eab5e4d915fe2db4671ff1ee": {
+    "input_path": "img/IMG_5544.jpg",
+    "output_path": "img/IMG_5544.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.829171",
+    "file_hash": "28421fd79b42ab03a97d566c3c4f4fc5"
+  },
+  "04390bad6a3364316e521b6c1c268c9d_ac3518cbd2b992cdedcc114ba018df0e": {
+    "input_path": "img/IMG_6620.jpg",
+    "output_path": "img/IMG_6620.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.849660",
+    "file_hash": "04390bad6a3364316e521b6c1c268c9d"
+  },
+  "8a0e19d40d4c417b99a6f08292226d65_e4b3ce66ad3a63304820076c76976b08": {
+    "input_path": "img/IMG_6626.jpg",
+    "output_path": "img/IMG_6626.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.864401",
+    "file_hash": "8a0e19d40d4c417b99a6f08292226d65"
+  },
+  "4a546f903d685780e6e6821bd56e4c88_47b650994bf3c5606997cb322b1a127d": {
+    "input_path": "img/IMG_6635.jpg",
+    "output_path": "img/IMG_6635.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.880113",
+    "file_hash": "4a546f903d685780e6e6821bd56e4c88"
+  },
+  "023570dfa30216b88b0234fe5de6d0f7_c97532d33ee3476e401507c09aeb8810": {
+    "input_path": "img/IMG_6636.jpg",
+    "output_path": "img/IMG_6636.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.894443",
+    "file_hash": "023570dfa30216b88b0234fe5de6d0f7"
+  },
+  "3c40542ec9b10d4028303d6700378efc_32b41879266c99d4e9b358944a6ab68a": {
+    "input_path": "img/IMG_6657.jpg",
+    "output_path": "img/IMG_6657.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.913840",
+    "file_hash": "3c40542ec9b10d4028303d6700378efc"
+  },
+  "66245e8d8beb1cc39973b8e5298457dc_eb99697a066f8e5cb4b3e66d525dc2ea": {
+    "input_path": "img/IMG_6671.jpg",
+    "output_path": "img/IMG_6671.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.929279",
+    "file_hash": "66245e8d8beb1cc39973b8e5298457dc"
+  },
+  "01ac3014586d691d18748b2cddb3b016_7b616834496796db359f7227b4b43368": {
+    "input_path": "img/IMG_7163.jpg",
+    "output_path": "img/IMG_7163.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.944278",
+    "file_hash": "01ac3014586d691d18748b2cddb3b016"
+  },
+  "2f10befd54188cd76b1b549af955d70e_e3d6d0cfe88cbdc37abfc8fd1b36ea62": {
+    "input_path": "img/living_room.jpg",
+    "output_path": "img/living_room.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.957800",
+    "file_hash": "2f10befd54188cd76b1b549af955d70e"
+  },
+  "3190041a773e173108446663ff7003f1_e7bcd4a90a953dc92f0c3ea87d586ad2": {
+    "input_path": "img/living_room1.jpg",
+    "output_path": "img/living_room1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.967211",
+    "file_hash": "3190041a773e173108446663ff7003f1"
+  },
+  "ee2d68e1ea5bfc3dd4b5e5eda56b9e41_59fcb4c0c920241fbd9fa889d40e79d0": {
+    "input_path": "img/majun.jpg",
+    "output_path": "img/majun.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:18.981198",
+    "file_hash": "ee2d68e1ea5bfc3dd4b5e5eda56b9e41"
+  },
+  "1d155fcadc86e35fea0e43f498f7f53d_447b1d6f073b6b994f87ea1cc781dc4a": {
+    "input_path": "img/meet.jpg",
+    "output_path": "img/meet.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.000229",
+    "file_hash": "1d155fcadc86e35fea0e43f498f7f53d"
+  },
+  "d24d62d94b84ce4aeae78b0ed40bdedd_3d07a21da39f7e65cd93d3b8aaad68ea": {
+    "input_path": "img/meet1.jpg",
+    "output_path": "img/meet1.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.017001",
+    "file_hash": "d24d62d94b84ce4aeae78b0ed40bdedd"
+  },
+  "2e062758f261feb0dc3493a8dbfabb36_dd24181a54978645f3d6101edc05e30c": {
+    "input_path": "img/outside-night.jpg",
+    "output_path": "img/outside-night.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.034451",
+    "file_hash": "2e062758f261feb0dc3493a8dbfabb36"
+  },
+  "43f609660c6d0fd311e1baef6a704a57_87354f539e99861808d5e1de778e770b": {
+    "input_path": "img/outside.jpg",
+    "output_path": "img/outside.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.048202",
+    "file_hash": "43f609660c6d0fd311e1baef6a704a57"
+  },
+  "69343144853df95dc30a1bdd51ecf503_bf6355dbdba45c73035b243df2fa4070": {
+    "input_path": "img/pool.jpg",
+    "output_path": "img/pool.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.072279",
+    "file_hash": "69343144853df95dc30a1bdd51ecf503"
+  },
+  "a7e7bb9336b914f167673e802830dbf2_6a3dfded933cbf4c7d043307fab7e718": {
+    "input_path": "img/pool3.jpg",
+    "output_path": "img/pool3.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.087377",
+    "file_hash": "a7e7bb9336b914f167673e802830dbf2"
+  },
+  "c11b9342a5b06626992373cf0080d4f4_4bd8e5f108a05db3c101a609b5b1027e": {
+    "input_path": "img/redbean.jpg",
+    "output_path": "img/redbean.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.100035",
+    "file_hash": "c11b9342a5b06626992373cf0080d4f4"
+  },
+  "762355b220681c186cc30a753a72f196_d8ada36c965a751bd5db25e8df911e3b": {
+    "input_path": "img/resturant.jpg",
+    "output_path": "img/resturant.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.114588",
+    "file_hash": "762355b220681c186cc30a753a72f196"
+  },
+  "8f4e0232db1dc12055d6fadbcbe736f9_aeefa3a89ef8b25685b17de206658eea": {
+    "input_path": "img/river-bike-jin.jpg",
+    "output_path": "img/river-bike-jin.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.125852",
+    "file_hash": "8f4e0232db1dc12055d6fadbcbe736f9"
+  },
+  "5032b26ed1b321c1c6d5ae857c202a7a_f009105e594a8373d686d652f838850a": {
+    "input_path": "img/slide.jpg",
+    "output_path": "img/slide.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.141736",
+    "file_hash": "5032b26ed1b321c1c6d5ae857c202a7a"
+  },
+  "980459069b238fb14f32d9218979dff7_75f34a656bae8dfb665b968f69747bc6": {
+    "input_path": "img/slide2.jpg",
+    "output_path": "img/slide2.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.157621",
+    "file_hash": "980459069b238fb14f32d9218979dff7"
+  },
+  "a8c8cc81f2771e0375183b50bccbd82e_ea45c5dc70ad7815e4e7ddd7eda3e03c": {
+    "input_path": "img/snoopy-duck.jpg",
+    "output_path": "img/snoopy-duck.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.164343",
+    "file_hash": "a8c8cc81f2771e0375183b50bccbd82e"
+  },
+  "19d7f9154b6e3f00fc933493fab1bf76_d070de17472b0f21565c21ee508440a2": {
+    "input_path": "img/song500.jpeg",
+    "output_path": "img/song500.jpeg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.167114",
+    "file_hash": "19d7f9154b6e3f00fc933493fab1bf76"
+  },
+  "f57ab312983c702a2ed8a330742afe48_7417b589459959c865a86b6c22403b09": {
+    "input_path": "img/taiwan-card.jpg",
+    "output_path": "img/taiwan-card.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.172381",
+    "file_hash": "f57ab312983c702a2ed8a330742afe48"
+  },
+  "bdb785c6bd1567711b0c148d961ca196_01ed5e744e7662cd8592e888d3673a28": {
+    "input_path": "img/wetland-flowers.jpg",
+    "output_path": "img/wetland-flowers.jpg",
+    "quality": 80,
+    "crop_size": [
+      1200,
+      800
+    ],
+    "processed_time": "2025-07-16T17:41:19.180698",
+    "file_hash": "bdb785c6bd1567711b0c148d961ca196"
+  }
+}
