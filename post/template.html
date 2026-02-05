@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{DESCRIPTION}}">
+    <meta name="keywords" content="衿日林民宿,{{TAGS}}">
+
+    <!-- Open Graph 標籤 -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{TITLE}}">
+    <meta property="og:description" content="{{DESCRIPTION}}">
+    <meta property="og:image" content="https://jinbnb.com/{{IMAGE}}">
+    <meta property="og:url" content="https://jinbnb.com/post/{{FILENAME}}">
+    <meta property="og:site_name" content="衿日林民宿">
+    <meta property="og:locale" content="zh_TW">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="icon" href="../img/logo.png" type="image/x-icon" />
+    <title>{{TITLE}}</title>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.defer = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-54JWN92');</script>
+    <!-- End Google Tag Manager -->
+    <style>
+        /* Modern article styling */
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            background: linear-gradient(135deg, #ff6b35 0%, #ffa500 100%);
+            display: flex;
+            align-items: end;
+            overflow: hidden;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            padding: 3rem 0;
+        }
+
+        .modern-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 165, 0, 0.8);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .article-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: white;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .article-subtitle {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 800px;
+        }
+
+        .article-meta {
+            border-bottom: 1px solid #e5e7eb;
+            padding: 1.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .article-content {
+            max-width: none;
+        }
+
+        .content-section {
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 4px solid #ff6b35;
+            line-height: 1.2;
+        }
+
+        .content-paragraph {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+            color: #374151;
+        }
+
+        .sidebar-card {
+            background: white;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background: rgba(255, 107, 53, 0.1);
+            padding: 1.5rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 1.125rem;
+            margin: 0;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .toc-item {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: #374151;
+            text-decoration: none;
+            border-bottom: 1px solid #f3f4f6;
+            transition: background-color 0.2s;
+        }
+
+        .toc-item:hover {
+            background: #f9fafb;
+            color: #ff6b35;
+        }
+
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 2rem 0;
+        }
+
+        .tag {
+            padding: 0.5rem 1rem;
+            background: #fed7aa;
+            color: #9a3412;
+            border-radius: 20px;
+            font-size: 0.875rem;
+        }
+
+        .image-showcase {
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-showcase img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        @media (max-width: 1024px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .article-title {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                height: 40vh;
+            }
+
+            .article-title {
+                font-size: 2rem;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe loading="auto" src="https://www.googletagmanager.com/ns.html?id=GTM-54JWN92" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="衿日林民宿-logo" width="50px" height="50px">
+                <span>宜蘭衿日林民宿</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="https://jinbnb.com">首頁</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="../all-posts.html">所有文章</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="https://booking.owlting.com/jinbnb" target="_blank">官網優惠訂房</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="https://lin.ee/cQjwwai" target="_blank">LINE加入好友</a>
+                    </li>
+                </ul>
+                <!-- 語言切換按鈕 -->
+                <div class="language-selector">
+                    <button class="language-btn active" data-lang="zh-TW">繁體中文</button>
+                    <button class="language-btn" data-lang="en">English</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="tags-container" id="hero-tags">
+                <!-- Tags will be injected here -->
+            </div>
+            <h1 class="article-title">{{TITLE}}</h1>
+        </div>
+    </div>
+
+    <!-- Article Meta -->
+    <div class="container">
+        <div class="article-meta">
+            <div class="meta-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path
+                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                    <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <span>{{DATE}}</span>
+            </div>
+            <div class="meta-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg>
+                <span>宜蘭冬山</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 麵包屑導航 -->
+    <div class="container">
+        <nav aria-label="麵包屑導航">
+            <ol class="breadcrumb" style="background: transparent; padding: 1rem 0; margin: 0;">
+                <li class="breadcrumb-item">
+                    <a href="https://jinbnb.com" style="color: #ff6b35; text-decoration: none;">衿日林民宿</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="../all-posts.html" style="color: #ff6b35; text-decoration: none;">所有文章</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page" style="color: #6b7280;">
+                    {{TITLE}}
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content-grid">
+            <!-- Article Content -->
+            <div class="article-content">
+                <!-- Main Image -->
+                <div class="image-showcase">
+                    <img src="../{{IMAGE}}" alt="{{TITLE}}" title="{{TITLE}}" loading="eager" width="800" height="600">
+                </div>
+
+                <!-- Content -->
+                <section class="content-section">
+                    <div class="intro-content">
+                        <p class="content-paragraph lead">{{DESCRIPTION}}</p>
+                    </div>
+
+                    <div class="main-content">
+                        {{CONTENT}}
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Booking Info -->
+                <div class="sidebar-card">
+                    <div class="card-header">
+                        <h3 class="card-title">🎯 立即預訂</h3>
+                    </div>
+                    <div class="card-content">
+                        <p style="margin-bottom: 1rem;">宜蘭旅遊住宿首選，建議提早預訂！</p>
+                        <a href="https://booking.owlting.com/jinbnb" target="_blank"
+                            style="display: block; background: #ff6b35; color: white; text-align: center; padding: 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; margin-bottom: 1rem;">
+                            🏨 官網優惠訂房
+                        </a>
+                        <a href="https://lin.ee/cQjwwai" target="_blank"
+                            style="display: block; background: #00b900; color: white; text-align: center; padding: 1rem; border-radius: 8px; text-decoration: none; font-weight: 600;">
+                            💬 LINE諮詢
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="sidebar-card">
+                    <div class="card-header">
+                        <h3 class="card-title">📞 聯絡資訊</h3>
+                    </div>
+                    <div class="card-content">
+                        <p style="margin-bottom: 0.5rem;"><strong>地址：</strong>宜蘭縣冬山鄉武淵三路116號</p>
+                        <p style="margin-bottom: 0.5rem;"><strong>電話：</strong>0928-836-163</p>
+                        <p><strong>特色：</strong>童玩節會場正對面，步行1分鐘</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+<script src="../js/lang.js"></script>
+<script>
+    // Inject tags
+    const tagsStr = "{{TAGS_RAW}}"; // Generated by script, e.g. "Tag1,Tag2"
+    if (tagsStr) {
+        const tags = tagsStr.split(',');
+        const container = document.getElementById('hero-tags');
+        tags.forEach(tag => {
+            const span = document.createElement('span');
+            span.className = 'modern-badge';
+            span.textContent = '#' + tag.trim();
+            container.appendChild(span);
+        });
+    }
+</script>
+
+</html>

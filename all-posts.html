@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,13 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="img/logo.png" type="image/x-icon" />
     <title>所有文章 - 衿日林民宿|宜蘭旅遊景點介紹</title>
-    
+
     <!-- 簡潔的樣式美化 -->
     <style>
         .article-card {
             background: white;
             border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             transition: all 0.3s ease;
             border: 1px solid #e5e7eb;
@@ -26,7 +27,7 @@
 
         .article-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         }
 
         .article-image {
@@ -142,7 +143,7 @@
         }
 
         .navbar {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             border-bottom: 1px solid #e5e7eb;
         }
 
@@ -182,11 +183,11 @@
             .page-title {
                 font-size: 2rem;
             }
-            
+
             .page-subtitle {
                 font-size: 1rem;
             }
-            
+
             .article-date {
                 top: 0.5rem;
                 right: 0.5rem;
@@ -195,30 +196,36 @@
             }
         }
     </style>
-    
+
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-54JWN92');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.defer = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-54JWN92');</script>
     <!-- End Google Tag Manager -->
 </head>
+
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe loading="auto" src="https://www.googletagmanager.com/ns.html?id=GTM-54JWN92"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe loading="auto" src="https://www.googletagmanager.com/ns.html?id=GTM-54JWN92" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     <!-- 導航欄 -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid container">
             <a class="navbar-brand" href="index.html">
-              <img src="img/logo.png" alt="衿日林民宿-logo" width="50px" height="50px">
-              <span data-i18n="brand-name">宜蘭衿日林民宿</span>
+                <img src="img/logo.png" alt="衿日林民宿-logo" width="50px" height="50px">
+                <span data-i18n="brand-name">宜蘭衿日林民宿</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -229,10 +236,12 @@
                         <a class="nav-link active" href="all-posts.html" data-i18n="nav-posts">所有文章</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="https://booking.owlting.com/jinbnb" target="_blank" data-i18n="nav-booking">官網優惠訂房</a>
+                        <a class="nav-link" href="https://booking.owlting.com/jinbnb" target="_blank"
+                            data-i18n="nav-booking">官網優惠訂房</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="https://lin.ee/cQjwwai" target="_blank" data-i18n="nav-line">LINE加入好友</a>
+                        <a class="nav-link" href="https://lin.ee/cQjwwai" target="_blank"
+                            data-i18n="nav-line">LINE加入好友</a>
                     </li>
                 </ul>
                 <!-- 語言切換按鈕 -->
@@ -266,210 +275,83 @@
 
     <!-- 文章列表 -->
     <div class="container">
-        <div class="row">
-            <!-- 2025年文章 -->
-            <div class="col-lg-6 col-md-6 mb-4">
-                <article class="article-card">
-                    <div class="article-image">
-                        <img src="img/snoopy-duck.jpg" alt="史努比鴨巨型裝置藝術" loading="lazy">
-                        <div class="article-date">2025/07/10</div>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="article-title">🦆巨鴨登場！來冬山河追史努比鴨，住衿日林民宿一秒到現場！</h2>
-                        <p class="article-excerpt">
-                            今年夏天，宜蘭童玩節迎來全球首見「史努比鴨」！來自「黃色小鴨之父」霍夫曼的最新巨型裝置，高達18公尺、以「Snoopy + 黃色小鴨」融合出意想不到的視覺震撼，已成為全台最火打卡熱點！
-                        </p>
-                        <div class="article-tags">
-                            <span class="article-tag">史努比鴨</span>
-                            <span class="article-tag">童玩節住宿</span>
-                            <span class="article-tag">霍夫曼藝術</span>
-                        </div>
-                        <div class="article-meta">
-                            <a href="post/2025-7-10-snoopy-duck.html" class="read-more">
-                                閱讀更多 →
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div class="col-lg-6 col-md-6 mb-4">
-                <article class="article-card">
-                    <div class="article-image">
-                        <img src="img/wetland-flowers.jpg" alt="五十二甲溼地穗花棋盤腳" loading="lazy">
-                        <div class="article-date">2025/06/17</div>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="article-title">衿日林民宿 × 五十二甲溼地穗花棋盤腳｜3分鐘抵達的夜間秘境</h2>
-                        <p class="article-excerpt">
-                            距離不遠的感動，一場漫步在穗花棋盤腳之間的夜遊體驗。位於宜蘭冬山河親水公園正對面的衿日林民宿，讓您在短短幾分鐘內就能抵達這個夏季夜晚最浪漫的秘境。
-                        </p>
-                        <div class="article-tags">
-                            <span class="article-tag">夜間賞花</span>
-                            <span class="article-tag">五十二甲溼地</span>
-                            <span class="article-tag">一夜美人</span>
-                        </div>
-                        <div class="article-meta">
-                            <a href="post/2025-6-17-wetland.html" class="read-more">
-                                閱讀更多 →
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div class="col-lg-6 col-md-6 mb-4">
-                <article class="article-card">
-                    <div class="article-image">
-                        <img src="img/2025-ciff.jpg" alt="2025宜蘭國際童玩節" loading="lazy">
-                        <div class="article-date">2025/05/01</div>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="article-title">2025宜蘭國際童玩節預售票開賣</h2>
-                        <p class="article-excerpt">
-                            2025年宜蘭國際童玩節即將登場！預售優惠票價現正開賣中，平日券200元、假日券300元，比現場購票省50元。衿日林民宿距離會場步行僅1分鐘，是您參加童玩節的最佳住宿選擇。
-                        </p>
-                        <div class="article-tags">
-                            <span class="article-tag">童玩節</span>
-                            <span class="article-tag">預售優惠</span>
-                            <span class="article-tag">活動資訊</span>
-                        </div>
-                        <div class="article-meta">
-                            <a href="post/2025-5-1-ciff.html" class="read-more">
-                                閱讀更多 →
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <!-- 2024年文章 -->
-            <div class="col-lg-6 col-md-6 mb-4">
-                <article class="article-card">
-                    <div class="article-image">
-                        <img src="img/hot-spring.jpg" alt="冬山河溫泉" loading="lazy">
-                        <div class="article-date">2024/10/31</div>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="article-title">冬山河溫泉泡湯體驗</h2>
-                        <p class="article-excerpt">
-                            在宜蘭冬山河畔享受純淨溫泉的洗禮，衿日林民宿周邊溫泉資源豐富，提供您舒緩身心的溫泉體驗。從民宿出發，輕鬆抵達各大溫泉區，享受不一樣的宜蘭溫泉之旅。
-                        </p>
-                        <div class="article-tags">
-                            <span class="article-tag">溫泉</span>
-                            <span class="article-tag">冬山河</span>
-                            <span class="article-tag">放鬆體驗</span>
-                        </div>
-                        <div class="article-meta">
-                            <a href="post/2024-10-31-hotspring.html" class="read-more">
-                                閱讀更多 →
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div class="col-lg-6 col-md-6 mb-4">
-                <article class="article-card">
-                    <div class="article-image">
-                        <img src="img/2024-ciff.jpg" alt="2024宜蘭國際童玩節" loading="lazy">
-                        <div class="article-date">2024/04/29</div>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="article-title">2024童玩節即將登場</h2>
-                        <p class="article-excerpt">
-                            2024宜蘭國際童玩節活動時間7/6~8/18，衿日林民宿離會場步行僅一分鐘，提供多種平價套房任選。今年童玩節精彩可期，快來預訂您的住宿，感受夏日歡樂時光！
-                        </p>
-                        <div class="article-tags">
-                            <span class="article-tag">童玩節</span>
-                            <span class="article-tag">夏日活動</span>
-                            <span class="article-tag">親子旅遊</span>
-                        </div>
-                        <div class="article-meta">
-                            <a href="post/2024-4-29-ciff.html" class="read-more">
-                                閱讀更多 →
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <!-- 2023年文章 -->
-            <div class="col-lg-6 col-md-6 mb-4">
-                <article class="article-card">
-                    <div class="article-image">
-                        <img src="img/redbean.jpg" alt="紅豆湯圓" loading="lazy">
-                        <div class="article-date">2023/12/09</div>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="article-title">包棟贈紅豆湯圓</h2>
-                        <p class="article-excerpt">
-                            即日起至113年1月31日，包棟入住即獲贈一鍋暖心的紅豆湯圓！衿日林民宿誠摯邀您包棟享受專屬空間，無論是家庭聚會或好友相聚，都能感受滿滿溫暖與溫馨。
-                        </p>
-                        <div class="article-tags">
-                            <span class="article-tag">包棟優惠</span>
-                            <span class="article-tag">紅豆湯圓</span>
-                            <span class="article-tag">家庭聚會</span>
-                        </div>
-                        <div class="article-meta">
-                            <a href="post/2023-12-9_redbean.html" class="read-more">
-                                閱讀更多 →
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div class="col-lg-6 col-md-6 mb-4">
-                <article class="article-card">
-                    <div class="article-image">
-                        <img src="img/2023-ciff.jpg" alt="2023宜蘭國際童玩節" loading="lazy">
-                        <div class="article-date">2023/07/01</div>
-                    </div>
-                    <div class="article-content">
-                        <h2 class="article-title">2023童玩節開幕！</h2>
-                        <p class="article-excerpt">
-                            2023宜蘭國際童玩節正式開幕！活動時間112年7月1日~8月13日，以「童玩原宇宙」為主題，結合「國際」、「童玩」及「藝術節」三大元素，期望大小朋友都能享受童趣！
-                        </p>
-                        <div class="article-tags">
-                            <span class="article-tag">童玩節</span>
-                            <span class="article-tag">童玩原宇宙</span>
-                            <span class="article-tag">藝術節</span>
-                        </div>
-                        <div class="article-meta">
-                            <a href="post/2023-7-1_ciff.html" class="read-more">
-                                閱讀更多 →
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
+        <div class="row" id="all-posts-container">
+            <!-- Posts rendered by JS -->
         </div>
+    </div>
+
+    <!-- JavaScript for Posts -->
+    <script src="js/posts_data.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const container = document.getElementById('all-posts-container');
+            if (!container || typeof POSTS === 'undefined') return;
+
+            POSTS.forEach(post => {
+                // Generates tags HTML
+                let tagsHtml = '';
+                if (post.tags && post.tags.length > 0) {
+                    tagsHtml = '<div class="article-tags">';
+                    post.tags.forEach(tag => {
+                        tagsHtml += `<span class="article-tag">${tag}</span>`;
+                    });
+                    tagsHtml += '</div>';
+                }
+
+                // Generates card HTML
+                const html = `
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <article class="article-card">
+                        <div class="article-image">
+                            <img src="${post.image}" alt="${post.title}" loading="lazy">
+                            <div class="article-date">${post.date}</div>
+                        </div>
+                        <div class="article-content">
+                            <h2 class="article-title">${post.title}</h2>
+                            <p class="article-excerpt">
+                                ${post.description}
+                            </p>
+                            ${tagsHtml}
+                            <div class="article-meta">
+                                <a href="${post.link}" class="read-more">
+                                    閱讀更多 →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                `;
+                container.innerHTML += html;
+            });
+        });
+    </script>
+    </div>
     </div>
 
     <!-- 頁尾 -->
     <footer id="footer" class="bg-light">
         <div class="container" data-i18n="footer-text">
-          衿日林民宿 All Rights Reserved.
+            衿日林民宿 All Rights Reserved.
         </div>
     </footer>
 
     <!-- JavaScript -->
     <script>
         // 語言切換功能
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const languageBtns = document.querySelectorAll('.language-btn');
-            languageBtns.forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    languageBtns.forEach(function(b) { b.classList.remove('active'); });
+            languageBtns.forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    languageBtns.forEach(function (b) { b.classList.remove('active'); });
                     this.classList.add('active');
                 });
             });
         });
     </script>
-    
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/lightbox.min.js"></script>
     <script src="js/lang.js"></script>
 </body>
-</html> 
+
+</html>
