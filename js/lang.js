@@ -3,10 +3,10 @@ const translations = {
   'zh-TW': {
     // 導航欄
     'nav-home': '首頁',
-    'nav-posts': '所有文章',
+    'nav-posts': '最新消息',
     'nav-booking': '官網優惠訂房',
     'nav-line': 'LINE加入好友',
-    
+
     // 標題
     'news-title': '最新消息',
     'env-title': '民宿環境',
@@ -18,7 +18,7 @@ const translations = {
     'contact-title': '聯絡資訊',
     'other-title': '其他',
     'location-title': '位置',
-    
+
     // 標籤和按鈕
     'notice-header': '入住須知',
     'cancel-header': '取消訂房退款',
@@ -26,11 +26,11 @@ const translations = {
     'bike-service': '自行車租車優惠',
     'bbq-service': '烤肉、外燴代訂',
     'tour-service': '遊程代訂',
-    
+
     // 聯絡資訊
     'phone-label': '訂房專線:',
     'line-label': 'LINE:',
-    
+
     // 頁腳
     'footer-text': '衿日林民宿 All Rights Reserved.',
 
@@ -84,7 +84,7 @@ const translations = {
     'news-2024-ciff-time': '🚀活動時間7/6~8/18',
     'news-2024-ciff-location': '衿日林民宿離會場步行僅一分鐘',
     'news-2024-ciff-rooms': '多種平價套房任選',
-    
+
     'news-redbean-title': '包棟贈紅豆湯圓',
     'news-redbean-date': '👉 即日起至 113年1月31日',
     'news-redbean-gift': '👉 包棟入住即獲贈一鍋 #暖心的紅豆湯圓 😍',
@@ -138,7 +138,7 @@ const translations = {
     'nav-posts': 'All Posts',
     'nav-booking': 'Book Online',
     'nav-line': 'Add LINE Friend',
-    
+
     // 標題
     'news-title': 'Latest News',
     'env-title': 'B&B Environment',
@@ -150,7 +150,7 @@ const translations = {
     'contact-title': 'Contact Information',
     'other-title': 'Others',
     'location-title': 'Location',
-    
+
     // 標籤和按鈕
     'notice-header': 'Check-in Information',
     'cancel-header': 'Cancellation Policy',
@@ -158,11 +158,11 @@ const translations = {
     'bike-service': 'Bicycle Rental',
     'bbq-service': 'BBQ & Catering',
     'tour-service': 'Tour Booking',
-    
+
     // 聯絡資訊
     'phone-label': 'Reservation Line:',
     'line-label': 'LINE:',
-    
+
     // 頁腳
     'footer-text': 'Jin B&B All Rights Reserved.',
 
@@ -216,7 +216,7 @@ const translations = {
     'news-2024-ciff-time': '🚀Event Period: July 6 - August 18',
     'news-2024-ciff-location': 'Only 1-minute walk from the venue',
     'news-2024-ciff-rooms': 'Various affordable room types available',
-    
+
     'news-redbean-title': 'Free Red Bean Tangyuan with Full House Booking',
     'news-redbean-date': '👉 From now until January 31, 2024',
     'news-redbean-gift': '👉 Get a complimentary pot of #heartwarming red bean tangyuan with full house booking 😍',
@@ -272,12 +272,12 @@ let currentLang = 'zh-TW';
 // 切換語言函數
 function switchLanguage(lang) {
   if (!translations[lang]) return;
-  
+
   currentLang = lang;
-  
+
   // 儲存語言選擇到 localStorage
   localStorage.setItem('preferred_language', lang);
-  
+
   // 更新所有帶有 data-i18n 屬性的元素
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
